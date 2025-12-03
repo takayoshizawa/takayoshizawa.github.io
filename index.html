@@ -1,474 +1,1060 @@
 <!DOCTYPE html>
-<!-- https://takayoshizawa.github.io/ -->
-<html class="no-js" lang="en-US">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="profile" href="http://gmpg.org/xfn/11" />
 <title>Takahito Yoshizawa</title>
-<meta name='robots' content='max-image-preview:large' />
-	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<!--
-<link rel="alternate" type="application/rss+xml" title="ULB Cybersecurity Research Center &raquo; Feed" href="https://cybersecurity.ulb.ac.be/feed/" />
-<link rel="alternate" type="application/rss+xml" title="ULB Cybersecurity Research Center &raquo; Comments Feed" href="https://cybersecurity.ulb.ac.be/comments/feed/" />
--->
-<script type="text/javascript">
-/* <![CDATA[ */
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cybersecurity.ulb.ac.be\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"}};
-/*! This file is auto-generated */
-!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
-/* ]]> */
-</script>
-<style id='wp-emoji-styles-inline-css' type='text/css'>
 
-	img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}
-</style>
-<link rel='stylesheet' id='wp-block-library-css' href='style.min.css?ver=6.7.1' type='text/css' media='all' />
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-</style>
-<style id='global-styles-inline-css' type='text/css'>
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
-:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
-</style>
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    background: #f4f5f7;
+  }
+  <!-- body { font-family: Arial, sans-serif; padding: 20px; } -->
+  .lang-btn { padding: 8px 14px; background:#007bff; color:#fff; border:none; border-radius:6px; cursor:pointer;}
+  .hidden { display: none; }
 
-<link rel='stylesheet' id='mh-magazine-lite-css' href='style.css?ver=2.9.2' type='text/css' media='all' />
-<link rel='stylesheet' id='mh-techmagazine-css' href='style.css?ver=1.2.4' type='text/css' media='all' />
-<link rel='stylesheet' id='mh-google-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600' type='text/css' media='all' />
-<link rel='stylesheet' id='mh-font-awesome-css' href='font-awesome.min.css' type='text/css' media='all' />
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .lang-btn {
+    padding: 8px 16px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .box {
+    background: white;
+    padding: 18px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  /* container for profile box + photo */
+  .profile-box-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto 40px auto;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  }
+
+  /* profile box */
+  .profile-box {
+      flex: 1;
+      padding: 10px;
+  }
+
+  /* photo */
+  .photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      flex-shrink: 0;
+  }
+
+  .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .name {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+  }
+
+  .role {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      opacity: 0.9;
+  }
+
+  .role2 {
+      font-size: 1.0rem;
+      margin-bottom: 20px;
+      opacity: 0.9;
+  }
+
+  /* top navigation */
+  .top-nav {
+      border-radius: 16px;
+      width: 100%;
+      background: #ffffff;
+      padding: 12px 20px;
+      <!-- position: sticky; -->
+      top: 0;
+      z-index: 50;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+
+  .top-nav a {
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+  }
+
+  .top-nav a:hover {
+      text-decoration: underline;
+  }
+
+  /* top navigation */
+  .bottom-nav {
+      width: 100%;
+      background: #ffffff;
+      padding: 0px 1px;
+      top: 0;
+      z-index: 50;
+      display: flex;
+      justify-content: left;
+      gap: 20px;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+
+  details {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background: #fafafa;
+    margin-bottom: 12px;
+  }
+
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+  }
+
+  summary::marker {
+    display: none;
+  }
+
+  summary:after {
+    content: "▶";
+    float: right;
+    transition: transform 0.2s;
+  }
+
+  details[open] summary:after {
+    transform: rotate(90deg);
+  }
+
+  /* mobile */
+  @media (max-width: 650px) {
+      .profile-box-row {
+          flex-direction: column-reverse;
+          align-items: center;
+          text-align: center;
+      }
+      .photo {
+          width: 130px;
+          height: 130px;
+          margin: 0 0 15px 0;
+      }
+      .top-nav {
+          flex-wrap: wrap;
+          gap: 12px;
+      }
+  }
+</style>
 
 </head>
-<body id="mh-mobile" class="page-template-default page page-id-416 wp-custom-logo mh-right-sb" itemscope="itemscope" itemtype="https://schema.org/WebPage">
-<div class="mh-header-mobile-nav mh-clearfix"></div>
-<header class="mh-header" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-	<div class="mh-container mh-container-inner mh-row mh-clearfix">
-		<div class="mh-custom-header mh-clearfix">
-<div class="mh-site-identity">
-<div class="mh-site-logo" role="banner" itemscope="itemscope" itemtype="https://schema.org/Brand">
+<body>
+
+
 <!--
-<a href="https://cybersecurity.ulb.ac.be/" class="custom-logo-link" rel="home"><img width="446" height="60" src="https://cybersecurity.ulb.ac.be/wp-content/uploads/2019/12/RESEARCH-CENTER-2.jpg" class="custom-logo" alt="Small Logo" decoding="async" srcset="https://cybersecurity.ulb.ac.be/wp-content/uploads/2019/12/RESEARCH-CENTER-2.jpg 446w, https://cybersecurity.ulb.ac.be/wp-content/uploads/2019/12/RESEARCH-CENTER-2-300x40.jpg 300w" sizes="(max-width: 446px) 100vw, 446px" /></a></div>
+  <div class="header">
+    <h2 id="page-title">My Profile</h2>
+  </div>
+
+<div class="box">
 -->
 </div>
-</div>
-		</div>
-	</div>
-	<div class="mh-main-nav-wrap">
-		<nav class="mh-navigation mh-main-nav mh-container mh-container-inner mh-clearfix" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
-			<div><ul>
-
-<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="#career_overview">OVERVIEW</a></li>
-<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="#work_history_experience">EXPERIENCE</a></li>
-<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="#education">EDUCATION</a></li>
-<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="#research_work">RESEARCH</a></li>
-<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="#research_papers">RESEARCH PAPERS</a></li>
-<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="#other_academic_activities">OTHER ACADEMIC ACTIVITIES</a></li>
-<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="#patents">PATENTS</a></li>
-<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="#otherinfo">OTHER INFO</a></li>
-</ul></div>		</nav>
-	</div>
-</header><div class="mh-container mh-container-outer">
-<div class="mh-wrapper mh-clearfix">
-    <div id="main-content" class="mh-content" role="main" itemprop="mainContentOfPage">
-			<article id="page-416" class="post-416 page type-page status-publish hentry">
-				<header class="entry-header">
-					<h1 class="entry-title page-title">Takahito (Taka) Yoshizawa</h1>	</header>
-					<h4>    --- Telecom engineer, Cybersecurity Researcher ---</h4><br>
-	<div class="entry-content mh-clearfix">
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p> <img src="icon_email.png" alt="email" width="25" height="25"> <code><a href="mailto:takahito.yoshizawa@esat.kuleuven.be">takahito.yoshizawa at esat.kuleuven.be</a></code></p>
-<p> <img src="icon_linkedin.png" alt="linkedin" width="25" height="25"> <code><a href="https://www.linkedin.com/in/takayoshizawa/" data-type="link" data-id="https://www.linkedin.com/in/takayoshizawa/">https://www.linkedin.com/in/takayoshizawa/</a></code></p>
-<p> <img src="icon_office.png" alt="office" width="25" height="25"> Departement Elektrotechniek (ESAT), Kasteelpark Arenberg 10, 3001 Leuven, Belgium (office 01.13)<br></p>
-</blockquote>
-
-<a id="career_overview"> </a>
-<h4 class="wp-block-heading">(CAREER) OVERVIEW</h4>
-<p>I'm originally from Nagoya, Japan. After several years in the industry in my home town, I decided to go to the US to go to a university.
-	Since then, my life started to diverge to an unexpected direction.
-	I've been living outside of Japan for many years more than half of my lifetime.
-  I've spent ~30 years in the mobile telecom industry as an enginner, then decided to change to academia.
-  Along the way, I did a lot of things, saw a lot of things, and learned a lot of things.
-  I've met and worked with a lot of people from many different countries.
-  Accumulation of all those life experience shaped me to what I am today...
-</p>
-
-<a id="work_history_experience"> </a>
-<h4 class="wp-block-heading">WORK HISTORY/EXPERIENCE</h4>
-<p>I have been pursuing a career as an engineer in telecom industry throughout my career, almost entirely in the mobile systems in the infrastructure product development space.
-  My career trajectory includes several different companies in several different countries in the past.
-  Some of the changes were intentional, some were rather side effect and consequence of various life events. <!--- sometimes you have to choose what is (more) important in life.-->
-  The types of companies include both multi-national large companies as well as small start-up companies (I have seen and gained insights in both pros and cons of both types of environments as a result).
-  I've done almost all types of engineering work associated with the lifecycle of telecom infra system/product development, starting from next-generation system design, architecture, requirement specification, software development, testing, system integration, deployment, and customer support.
-</p>
-<p>Another rather large part of my career is my involvement in standardization such as <a href="https://www.3gpp.org">3GPP</a> for well over 10 years.
-	Reading standard specification documents is not so trivial due to their contents and the way they are written.
-	Due to my long-time involvement with 3GPP, I have gained intricate understanding and knowledge of creating standard specifications, such as why they are written in such complex and not-so-easy-to-digest manner.
-	Due to this, digesting them has become a relatively not-too-difficult task.
-</p>
-<p>Aside from this (and more than anything else) working in different countries and cultures, and having (ex-)colleagues from many different countries with different cultural backgrounds were the most important and precious intangible asset for me.
-  Relatively recently, I decided to pursue and obtained a PhD (a long story). I'm currently continuing research work and some teaching in academia environment.
-  This experience in non-industry environment gave me yet new different perspectives.</p>
-
-
-<!-- <img srcset="timeline.jpg" alt=""> -->
-<figure><img fetchpriority="high" decoding="async" src="timeline.jpg" alt="" class="wp-image-418"  /></figure>
-<br/>
-
-<p>
-<strong>2022 - 2025:</strong> Tao Consulting, (Boom, Belgium)
-</p>
-<ul class="wp-block-list">
-	<li><u>Independent telecom consultant</u> -- analyzing technical details of future trends of mobile telecom technologies and 3GPP standard to help a client company to gain technical insights for the objective to conceive future businesses.</li>
-</ul>
-
-<p>
-<strong>2019 - Present:</strong> COSIC Group, ESAT Dept., KU Leuven (Leuven, Belgium)
-</p>
-<ul class="wp-block-list">
-	<li><u>Post-doc researcher</u> (2023~): continue to focus on V2X security and machine learning security.</li>
-	<li><u>Lecturer</u> (2020~): mobile system security in Master of Cybersecurity degree, and TA for Telecom and Security Management class.</li>
-	<li><u>PhD researcher</u> (2019~2023), focusing on communication security (mainly V2X security) and machine learning security.</li>
-</ul>
-
-<p>
-<strong>2015 - 2019:</strong> NEC Laboratories Europe Gmbh, (Heidelberg, Germany)
-</p>
-<ul class="wp-block-list">
-	<li><u>Senior Standard Engineer</u> -- 3GPP delegate to SA6 (Public safety), SA3 (Security) WGs. Conceive contribution ideas based on the ongoing study items (SI) and work items (WI), prepare contribution documents, and propose them in these working groups (WG).
-		Negodiate and collaborate with delegates from other companies to standardize the proposed contributions.
-		SA6: contributions related to Public Safety LTE (PS-LTE) standardization.
-		SA3: contributions related to 5G security standardization.
-	</li>
-</ul>
-
-<p>
-<strong>2011 - 2015:</strong> Ubiquisys Ltd, (Swindon, UK.), Cisco Systems (Diegem, Belgium)
-</p>
-<ul class="wp-block-list">
-	<li><u>Senior System and Standard Engineer</u> -- 3GPP delegate to RAN3 (RAN protocols), RAN plenary. System engineer for smallcell products design and development.
-	Mainly monitor standardization activities (SIs and WIs) in RAN3, and gaining overall standardization of RAN technologies in RAN plenary.</li>
-	<li>System engineering of new featues in 3G (UMTS) and 4G (LTE) femtocell/smallcell products by analyzing customer requirements and create company-internal specification documents to implement them (transfer to Cisco systems was due to its acquisition of Ubiquisys Ltd. in 2013).  </li>
-</ul>
-
-<p>
-<strong>2006 - 2010:</strong> Thomson / Technicolor, (Edegem, Belgium)
-</p>
-<ul class="wp-block-list">
-	<li><u>System Architect</u> -- Standard delegate to 3GPP RAN3 (RAN protocols), Broadband Forum, Femto Forum.</li>
-	<li>System engineer of 3G (UMTS) smallcell products design and development.</li>
-</ul>
-
-<p>
-<strong>1992 - 2006:</strong> Motorola Inc. (Arlington Heights, IL. US.)
-</p>
-<ul class="wp-block-list">
-	<li><u>Principal Staff Engineer</u> (2002-2006), <u>Senior Staff Engineer</u> (2000-2002), <u>Lead Engineer</u> (1998-2000) <u>Senior Engineer</u> (1996-1998), <u>Engineer I, II</u> (1992-1996)</li>
-	<li>System engineering of 2G (PDC)and 3G (CDMA) infrastructure product engineering, development, testing, deployment, customer support. Have experienced engineering work in all phases of mobile infrastructure system development lifecycle.</li>
-</ul>
 
-<p>
-<strong>1982 - 1987:</strong> Nagoya IGS, (Nagoya, Japan)
-</p>
-<ul class="wp-block-list">
-<li><u>Software engineer, team leader</u>Software development of bespoke banking OS and banking transaction applications. Leading/mentoring a small group of developers.</li>
-</ul>
-<br>
 
-<a id="education"></a>
-<h4 class="wp-block-heading">EDUCATION</h4>
-<p>
-My education and career progression ended up highly convoluted (please see the figure above).
-It was not intentional. It was rather an end result of career-long endeavour to undo my prior (poor) decision to not pursue higher education when I was a teenager.
-You can call it a entire-career-long quest for repechage (2nd chance) in life.
-It's not the optimal way of doing things, but I'm happy that I've done this.
-Having said this, I'm don't quite recommend doing it this way to anybody.
-</p>
 
-<ul class="wp-block-list">
-<li>PhD, <strong>Katholiek Universiteit Leuven (KU Leuven) (Belgium)</strong>, Thesis title: <em>“Digital Certificate Usage and Management in Vehicular Communication Systems”</em>, 2023 (Downloadable from: <code><a href="https://lirias.kuleuven.be/4110578?limo=0" data-type="link" data-id="https://lirias.kuleuven.be/4110578?limo=0">Here</a></code>)</li>
 
-<li>MS Telecommunication, <strong>Southern Methodist University (US) </strong>, 2002 </li>
+<!-- ========================== ========================== ========================== ==========================
+     ENGLISH CONTENT
+========================== ========================== ========================== ========================== -->
+<div id="lang-en">
+
+  <a id="top"> </a>
+  <!-- Navigation links to sections -->
+  <div class="top-nav">
+      <a href="#overview">Overview</a>
+      <a href="#work_history_experience">Work Experience</a>
+      <a href="#education">Education</a>
+      <a href="#research_work">Research</a>
+      <a href="#research_papers">Papers</a>
+      <a href="#patents">Patents</a>
+      <a href="#other_info">Other Info</a>
+  </div>
+
+  <!-- Profile section -->
+  <div id="profile" class="profile-box-row">
+    <div class="photo">
+        <img src="Taka_photo2.jpg" alt="Profile Photo">
+    </div>
+    <div class="profile-box">
+        <div class="name" id="page-title">Takahito (Taka) Yoshizawa</div>
+        <!-- <div class="role" id="job-title">Takahito (Taka) Yoshizawa</div> -->
+        <div class="role2" id="job-title2">Engineer specializing in telecommunications infrastructure, cybersecurity, and network systems</div>
+        <div id="flags"><img src="belgium_flag_icon.png" width="55" height="35"><img src="blank.png" width="20" height="15"><img src="japan_flag_icon.png" width="55" height="35"></div>
+    </div>
+
+    <div class="profile-box">
+      <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+      <p> <img src="icon_email.png" alt="email" width="25" height="25"> <code><a href="mailto:takahito.yoshizawa@esat.kuleuven.be">takahito.yoshizawa at esat.kuleuven.be</a></code></p>
+      <p> <img src="icon_linkedin.png" alt="linkedin" width="25" height="25"> <code><a href="https://www.linkedin.com/in/takayoshizawa/" data-type="link" data-id="https://www.linkedin.com/in/takayoshizawa/">https://www.linkedin.com/in/takayoshizawa/</a></code></p>
+      <p> <img src="icon_office.png" alt="office" width="25" height="25"> Departement Elektrotechniek (ESAT), Kasteelpark Arenberg 10, 3001 Leuven, Belgium (office 01.13)<br></p>
+      </blockquote>
+    </div>
+    <button class="lang-btn" onclick="toggleLang()">日本語</button>
+  </div>
+
+  <!-- <link href="sample_import.html" rel="import" /> -->
+
+  <a id="overview"> </a>
+  <h2 class="wp-block-heading">(CAREER) OVERVIEW</h2>
+  <p>I'm originally from Nagoya, Japan. After several years in the industry in my home town, I decided to go to the US to go to a university.
+  	Since then, my life started to diverge to an unexpected direction.
+  	I've been living outside of Japan for many years more than half of my lifetime.
+    I've spent ~30 years in the mobile telecom industry as an enginner, then decided to change to academia.
+    Along the way, I did a lot of things, saw a lot of things, and learned a lot of things.
+    I've met and worked with a lot of people from many different countries.
+    Accumulation of all those life experience shaped me to what I am today...
+  </p>
+
+  <a id="work_history_experience"> </a>
+  <h2 class="wp-block-heading">WORK HISTORY/EXPERIENCE</h2>
+  <p>I have been pursuing a career as an engineer in telecom industry throughout my career, almost entirely in the mobile systems in the infrastructure product development space.
+    My career trajectory includes several different companies in several different countries in the past.
+    Some of the changes were intentional, some were rather side effect and consequence of various life events. <!--- sometimes you have to choose what is (more) important in life.-->
+    The types of companies include both multi-national large companies as well as small start-up companies (I have seen and gained insights in both pros and cons of both types of environments as a result).
+    I've done almost all types of engineering work associated with the lifecycle of telecom infra system/product development, starting from next-generation system design, architecture, requirement specification, software development, testing, system integration, deployment, and customer support.
+  </p>
+  <p>Another rather large part of my career is my involvement in standardization such as <a href="https://www.3gpp.org">3GPP</a> for well over 10 years.
+  	Reading standard specification documents is not so trivial due to their contents and the way they are written.
+  	Due to my long-time involvement with 3GPP, I have gained intricate understanding and knowledge of creating standard specifications, such as why they are written in such complex and not-so-easy-to-digest manner.
+  	Due to this, digesting them has become a relatively not-too-difficult task.
+  </p>
+  <p>Aside from this (and more than anything else) working in different countries and cultures, and having (ex-)colleagues from many different countries with different cultural backgrounds were the most important and precious intangible asset for me.
+    Relatively recently, I decided to pursue and obtained a PhD (a long story). I'm currently continuing research work and some teaching in academia environment.
+    This experience in non-industry environment gave me yet new different perspectives.</p>
+
+
+  <!-- <img srcset="timeline.jpg" alt=""> -->
+  <figure><img fetchpriority="high" decoding="async" src="timeline.jpg" alt="" class="wp-image-418"  /></figure>
+  <br/>
+
+  <p>
+  <strong>2022 - 2025:</strong> Tao Consulting, (Boom, Belgium)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>Independent telecom consultant</u> -- analyzing technical details of future trends of mobile telecom technologies and 3GPP standard to help a client company to gain technical insights for the objective to conceive future businesses.</li>
+  </ul>
+
+  <p>
+  <strong>2019 - Present:</strong> COSIC Group, ESAT Dept., KU Leuven (Leuven, Belgium)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>Post-doc researcher</u> (2023~): continue to focus on V2X security and machine learning security.</li>
+  	<li><u>Lecturer</u> (2020~): mobile system security in Master of Cybersecurity degree, and TA for Telecom and Security Management class.</li>
+  	<li><u>PhD researcher</u> (2019~2023), focusing on communication security (mainly V2X security) and machine learning security.</li>
+  </ul>
+
+  <p>
+  <strong>2015 - 2019:</strong> NEC Laboratories Europe Gmbh, (Heidelberg, Germany)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>Senior Standard Engineer</u> -- 3GPP delegate to SA6 (Public safety), SA3 (Security) WGs. Conceive contribution ideas based on the ongoing study items (SI) and work items (WI), prepare contribution documents, and propose them in these working groups (WG).
+  		Negodiate and collaborate with delegates from other companies to standardize the proposed contributions.
+  		SA6: contributions related to Public Safety LTE (PS-LTE) standardization.
+  		SA3: contributions related to 5G security standardization.
+  	</li>
+  </ul>
+
+  <p>
+  <strong>2011 - 2015:</strong> Ubiquisys Ltd, (Swindon, UK.), Cisco Systems (Diegem, Belgium)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>Senior System and Standard Engineer</u> -- 3GPP delegate to RAN3 (RAN protocols), RAN plenary. System engineer for smallcell products design and development.
+  	Mainly monitor standardization activities (SIs and WIs) in RAN3, and gaining overall standardization of RAN technologies in RAN plenary.</li>
+  	<li>System engineering of new featues in 3G (UMTS) and 4G (LTE) femtocell/smallcell products by analyzing customer requirements and create company-internal specification documents to implement them (transfer to Cisco systems was due to its acquisition of Ubiquisys Ltd. in 2013).  </li>
+  </ul>
+
+  <p>
+  <strong>2006 - 2010:</strong> Thomson / Technicolor, (Edegem, Belgium)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>System Architect</u> -- Standard delegate to 3GPP RAN3 (RAN protocols), Broadband Forum（BBF), Femto Forum (FF).</li>
+  	<li>System engineer of 3G (UMTS) smallcell products design and development.</li>
+  </ul>
+
+  <p>
+  <strong>1992 - 2006:</strong> Motorola Inc. (Arlington Heights, IL. US.)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>Principal Staff Engineer</u> (2002-2006), <u>Senior Staff Engineer</u> (2000-2002), <u>Lead Engineer</u> (1998-2000) <u>Senior Engineer</u> (1996-1998), <u>Engineer I, II</u> (1992-1996)</li>
+  	<li>System engineering of 2G (PDC)　and 3G (CDMA) infrastructure product engineering, development, testing, deployment, customer support. Have experienced engineering work in all phases of mobile infrastructure system development lifecycle.</li>
+  </ul>
+
+  <p>
+  <strong>1982 - 1987:</strong> Nagoya IGS, (Nagoya, Japan)
+  </p>
+  <ul class="wp-block-list">
+  <li><u>Software engineer, team leader</u>Software development of bespoke banking OS and banking transaction applications. Leading/mentoring a small group of developers.</li>
+  </ul>
+  <a href="#top">back to top</a>
+  <br>
+  <br>
+
+  <a id="education"></a>
+  <h2 class="wp-block-heading">EDUCATION</h2>
+  <p>
+  My education and career progression ended up highly convoluted (please see the figure above).
+  It was not intentional. It was rather an end result of career-long endeavour to undo my prior (poor) decision to not pursue higher education when I was a teenager.
+  You can call it a entire-career-long quest for repechage (2nd chance) in life.
+  It's not the optimal way of doing things, but I'm happy that I've done this.
+  Having said this, I'm don't quite recommend doing it this way to anybody.
+  </p>
+
+  <ul class="wp-block-list">
+  <li>PhD, <strong>Katholiek Universiteit Leuven (KU Leuven) (Belgium)</strong>, Thesis title: <em>“Digital Certificate Usage and Management in Vehicular Communication Systems”</em>, 2023 (Downloadable from: <code><a href="https://lirias.kuleuven.be/4110578?limo=0" data-type="link" data-id="https://lirias.kuleuven.be/4110578?limo=0">Here</a></code>)</li>
+
+  <li>MS Telecommunication, <strong>Southern Methodist University (US) </strong>, 2002 </li>
+
+  <li>BS. Information and Computer Science, <strong>Georgia Institute of Technology (US) </strong>, 1992 </li>
+  </ul>
+  <a href="#top">back to top</a>
+  <br>
+  <br>
 
-<li>BS. Information and Computer Science, <strong>Georgia Institute of Technology (US) </strong>, 1992 </li>
-</ul>
+  <a id="research_work"></a>
+  <h2 class="wp-block-heading">RESEARCH WORK</h2>
+  <p>My research interest is in communication security.
+  	I found vehicular communication (V2X) an interesting research area as it is an intersection of communication industry and automotive industry,
+  	and I was curious to see if this relatively-new technology will be a great success in the marketplace or a failure.
+  	I have not yet reached conclusion on this point.
+  </p>
+  <p>
+  I did my PhD in 2023 in Katholiek Universiteit in Leuven (KU Leuven) in Beligum.
+  My thesis is regarding security and privacy of vehicular communication.
+  This work revolves around analysis of standard specifications.
+  </p>
+
+  <p><strong>Research Interests:</strong></p>
+  <ul class="wp-block-list">
+  	<li>Security and privacy of communication systems, including vehicular communication (V2X), Cooperative Connected and Automated Mobility (CCAM)</li>
+  	<li>Security of Reinforcement Learning (RL) in the context of Autonomous Vehicles (AVs)</li>
+  </ul>
+  <a href="#top">back to top</a>
+  <br>
+  <br>
+  <!--
+  <a id="phd_thesis"></a>
+  <h2 class="wp-block-heading">PHD THESIS</h2>
+  <ul class="wp-block-list">
+  <li>Takahito Yoshizawa <strong>“Digital Certificate Usage and Management in Vehicular Communication Systems”</strong> PhD thesis, KU Leuven, 290 pages, 2023.</li>
+  </ul>
+  <br> -->
+
+
+  <a id="research_papers"></a>
+  <h2 class="wp-block-heading">RESEARCH PAPERS</h2>
+
+  <p><strong>ML Security-Related Research Papers:</strong></p>
+  <ul class="wp-block-list">
+  	<li>Arpad Huszak, Takaito Yoshizawa, Alireza Aghabagherloo, Dave Singelée &amp; Bart Preneel (2025). <strong>“On Performance Improvement of Reinforcement Learning for Collision Avoidance in Autonomous Intersections”</strong> In <em>IEEE Access</em>, Vol. 13, pp. 189225-189241, doi:<a href="https://doi.org/10.1109/ACCESS.2025.3626936">10.1109/ACCESS.2025.3626936</a>, 2025.</li>
+  	<li>Takaito Yoshizawa, Alireza Aghabagherloo, Arpad Huszak, Csongor Ujvarosi, Dave Singelée &amp; Bart Preneel (2024). <strong>“Security-Focused Training Model of Reinforcement Learning in Autonomous Vehicles”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 215-218, doi:<a href="https://doi.org/10.1109/VNC61989.2024.10575985">10.1109/VNC61989.2024.10575985</a>, 2024.</li>
+  	<!-- <li>. <strong>“”</strong> In <em></em>, .</li>	 -->
+  </ul>
+
+  <p><strong>V2X Security-Related Research Papers:</strong></p>
+  <ul class="wp-block-list">
+  	<li>Takahito Yoshizawa, <strong>“Security and Privacy of ITS Standards and Their Research Challenges”</strong> A book chapter in <em>Connected, Cooperative and Autonomous Mobility - Research Needs, Challenges and Future Perspectives</em>, IntechOpen, 2026 (to be published).</li>
+
+    <li>Takahito Yoshizawa,  &amp; Bart Preneel, <strong>“Intersections Are Not Good for Your Privacy”</strong> In <em>IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WIMOB 2024)</em>, pp. 166-171, doi:<a href="https://doi.org/10.1109/WiMob61911.2024.10770318">10.1109/WiMob61911.2024.10770318</a>, 2024.</li>
+
+  	<li>Takahito Yoshizawa, An Braeken &amp; Bart Preneel, <strong>“Toward Viable Security Solution for VRUs in V2X Communication”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 33-40, doi:<a href="https://doi.org/10.1109/VNC61989.2024.10576015">10.1109/VNC61989.2024.10576015</a>, 2024.</li>
+
+  	<li>Dimah Almani, Tim Muller, Xavier Carpent, Takahito Yoshizawa &amp; Steve Furnell, <strong>“Enabling Vehicle-to-Vehicle Trust in Rural Areas: An Evaluation of a Pre-Signature Scheme for Infrastructure-Limited Environments”</strong> In <em>Future Internet 16(3)</em>, 25 pages, doi:<a href="https://doi.org/10.3390/fi16030077">10.3390/fi16030077</a>, 2024.</li>
+
+  	<li>D. Balenson, C. Bösch, K. Han, M. Hoffmann, S. Pape, N. Trkulja, &amp; Takahito Yoshizawa, <strong>“Automotive Privacy Engineering”</strong> In <em>Sec.4.3 of Privacy Protection of Automated and Self-Driving Vehicles (Dagstuhl Seminar 23242)</em>, 41 pages, doi:<a href="https://doi.org/10.4230/DagRep.13.6.22">10.4230/DagRep.13.6.22</a>, 2024.</li>
+
+  	<li>Takahito Yoshizawa, An Braeken &amp; Bart Preneel, <strong>“Open Questions in VRU Standards from Security and Privacy Perspectives”</strong> In <em>IEEE Conference on Standards for Communications and Networking</em>, pp. 278-283, doi:<a href="https://doi.org/10.1109/CSCN60443.2023.10453165">10.1109/CSCN60443.2023.10453165</a>, 2023.</li>
+
+  	<li>Dimah Almani, Tim Muller, Xavier Carpent, Steve Furnell, &amp; Takahito Yoshizawa, <strong>“Pre-Signature Scheme for Trustworthy Offline V2V Communication”</strong> In <em>Proceedings of the IFIP Information and Communication Technology, Lecture Notes in Computer Science, Springer-Verlag</em>, 16 pages, 2023.</li>
+
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Post-Quantum Impacts on V2X Certificates – Already at The End of The Road”</strong> In <em>IEEE Vehicular Technology Conference</em>, 6 pages, doi:<a href="https://doi.org/10.1109/VTC2023-Spring57618.2023.10199793">10.1109/VTC2023-Spring57618.2023.10199793</a>, 2023.</li>
+
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“A New Approach To Pseudonym Certificate Management in V2X Communication”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 25-32, doi:<a href="https://doi.org/10.1109/VNC57357.2023.10136349">10.1109/VNC57357.2023.10136349</a>, 2023.</li>
+
+  	<li>Takahito Yoshizawa, Dave Singelée, Jan Tobias Muehlberg, Stephane DELBRUEL, Daniel HUGHES, A. TAHERKORDI, &amp; Bart Preneel, <strong>“A Survey of Security and Privacy Issues in V2X Communication Systems”</strong> In <em>ACM Computing Surveys 55(9)</em>, pp. 1-36, doi:<a href="https://doi.org/10.1145/3558052">10.1145/3558052</a>, 2023.</li>
+
+  	<li>Takahito Yoshizawa, Dave Singelée, Jan Tobias Muehlberg, Stephane DELBRUEL, Daniel HUGHES, A. TAHERKORDI, &amp; Bart Preneel, <strong>“A Survey of Security and Privacy Issues in V2X Communication Systems (Extended version)”</strong> In <em>ArXiv.org</em>, 36 pages, <a href="https://arxiv.org/abs/2208.14674">arxiv.org</a>, 2023.</li>
+
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Misbehaviour Reporting in ETSI ITS Standard Considered Broken”</strong> In <em>IEEE Conference on Standards for Communications and Networking</em>, 7 pages, doi:<a href="https://doi.org/10.1109/CSCN57023.2022.10050926">10.1109/CSCN57023.2022.10050926</a>, 2022.</li>
+
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“On Handling of Certificate Digest in V2X Communication”</strong> In <em>IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WIMOB 2022)</em>, 6 pages, doi:<a href="https://doi.org/10.1109/WiMob55322.2022.9941683">10.1109/WiMob55322.2022.9941683</a>, 2022.</li>
 
-<br>
+  	<li>Takahito Yoshizawa, Dave Singelée &amp; Bart Preneel, <strong>“A New Privacy Enhancing Beacon Scheme in V2X Communication”</strong> In <em>Data Privacy Management, Autonomous Spontaneous Security, and Security Assurance, Lecture Notes in Computer Science</em>, Springer-Verlag, 12 pages, doi:<a href="https://doi.org/10.1007/978-3-030-93944-1_9">10.1007/978-3-030-93944-1_9</a>, 2021.</li>
 
-<a id="research_work"></a>
-<h4 class="wp-block-heading">RESEARCH WORK</h4>
-<p>My research interest is in communication security.
-	I found vehicular communication (V2X) an interesting research area as it is an intersection of communication industry and automotive industry,
-	and I was curious to see if this relatively-new technology will be a great success in the marketplace or a failure.
-	I have not yet reached conclusion on this point.
-</p>
-<p>
-I did my PhD in 2023 in Katholiek Universiteit in Leuven (KU Leuven) in Beligum.
-My thesis is regarding security and privacy of vehicular communication.
-This work revolves around analysis of standard specifications.
-</p>
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Survey of Security Aspects of V2X Standards and Related Issues”</strong> In <em>IEEE Conference on Standards for Communications and Networking, J. Lopez-Soler and T. Taleb (Eds.)</em>, 5 pages, doi:<a href="https://doi.org/10.1109/CSCN.2019.8931311">10.1145/3190619.3190640</a>, 2019.</li>
+  </ul>
 
-<p><strong>Research Interests:</strong></p>
-<ul class="wp-block-list">
-	<li>Security and privacy of communication systems, including vehicular communication (V2X), Cooperative Connected and Automated Mobility (CCAM)</li>
-	<li>Security of Reinforcement Learning (RL) in the context of Autonomous Vehicles (AVs)</li>
-</ul>
-<br>
+  <p><strong>Other Research Papers:</strong></p>
+  <ul class="wp-block-list">
+  	<li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp Xiaoting Huang <strong>“5G Authentication Mechanisms”</strong> A book chapter in <em>5G Networks and Cybersecurity</em>, River Publisher, 2025</li>
 
-<!--
-<a id="phd_thesis"></a>
-<h4 class="wp-block-heading">PHD THESIS</h4>
-<ul class="wp-block-list">
-<li>Takahito Yoshizawa <strong>“Digital Certificate Usage and Management in Vehicular Communication Systems”</strong> PhD thesis, KU Leuven, 290 pages, 2023.</li>
-</ul>
-<br> -->
+  	<li>Sayon Duttagupta, Dave Singelée, Xavier Carpent, Volkan Guler, Takahito Yoshizawa, Seyed Farhad Aghili, Aysajan Abidin, &amp Bart Preneel <strong>“CARPOOL: Secure And Reliable Proof of Location”</strong> In <em>Cryptology ePrint Archive</em>, <a href="https://eprint.iacr.org/2025/1502">iacr 2025 1502</a>, 2025</li>
 
-
-<a id="research_papers"></a>
-<h4 class="wp-block-heading">RESEARCH PAPERS</h4>
+  	<li>Roosbeh Sarenche, S. Aghili, Dave Singelée, &amp;  Takahito Yoshizawa <strong>“DASLog: Decentralized Auditable Secure Logging for UAV Ecosystems”</strong> In <em>IEEE Internet of Things Journal 10(23)</em>, pp. 20264-20284, doi:<a href="https://doi.org/10.1109/JIOT.2023.3281263">10.1109/JIOT.2023.3281263</a>, 2023</li>
 
-<p><strong>ML Security-Related Research Papers:</strong></p>
-<ul class="wp-block-list">
-	<li>Arpad Huszak, Takaito Yoshizawa, Alireza Aghabagherloo, Dave Singelée &amp; Bart Preneel (2025). <strong>“On Performance Improvement of Reinforcement Learning for Collision Avoidance in Autonomous Intersections”</strong> In <em>IEEE Access</em>, Vol. 13, pp. 189225-189241, doi:<a href="https://doi.org/10.1109/ACCESS.2025.3626936">10.1109/ACCESS.2025.3626936</a>, 2025.</li>
-	<li>Takaito Yoshizawa, Alireza Aghabagherloo, Arpad Huszak, Csongor Ujvarosi, Dave Singelée &amp; Bart Preneel (2024). <strong>“Security-Focused Training Model of Reinforcement Learning in Autonomous Vehicles”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 215-218, doi:<a href="https://doi.org/10.1109/VNC61989.2024.10575985">10.1109/VNC61989.2024.10575985</a>, 2024.</li>
-	<!-- <li>. <strong>“”</strong> In <em></em>, .</li>	 -->
-</ul>
+  	<li>Xiaoting Huang, Takahito Yoshizawa, &amp;  Sheeba Backia Mary Baskaran <strong>“Authentication Mechanisms in the 5G System”</strong> In <em>Journal of ICT Standardization 9(2)</em>, River Publisher, pp. 61-78, doi:<a href="https://doi.org/10.13052/jicts2245-800X.921">10.13052/jicts2245-800X.921</a>, 2021.</li>
 
-<p><strong>V2X Security-Related Research Papers:</strong></p>
-<ul class="wp-block-list">
-	<li>Takahito Yoshizawa, <strong>“Security and Privacy of ITS Standards and Their Research Challenges”</strong> A book chapter in <em>Connected, Cooperative and Autonomous Mobility - Research Needs, Challenges and Future Perspectives</em>, IntechOpen, 2026.</li>
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel (2020) <strong>“Verification Schemes of Multi-SIM Devices in Mobile Communication Systems”</strong> In <em>ACM International Symposium on Mobility Management and Wireless Access 2020</em>, 7 pages, doi:<a href="https://doi.org/10.1145/3416012.3424620">10.1145/3416012.3424620</a>, 2020.</li>
 
-  <li>Takahito Yoshizawa,  &amp; Bart Preneel, <strong>“Intersections Are Not Good for Your Privacy”</strong> In <em>IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WIMOB 2024)</em>, pp. 166-171, doi:<a href="https://doi.org/10.1109/WiMob61911.2024.10770318">10.1109/WiMob61911.2024.10770318</a>, 2024.</li>
+  	<li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp;  Andreas Kunz <strong>“Overview of 5G URLLC System and Security Aspects in 3GPP”</strong> In <em>IEEE Conference on Standards for Communications and Networking, J. Lopez-Soler and T. Taleb (Eds.)</em>, 5 pages, doi:<a href="https://doi.org/10.1109/CSCN.2019.8931376">10.1109/CSCN.2019.8931376</a>, 2019.</li>
 
-	<li>Takahito Yoshizawa, An Braeken &amp; Bart Preneel, <strong>“Toward Viable Security Solution for VRUs in V2X Communication”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 33-40, doi:<a href="https://doi.org/10.1109/VNC61989.2024.10576015">10.1109/VNC61989.2024.10576015</a>, 2024.</li>
+  	<li>D.N. Knisely, T. Yoshizawa, F. Favichia <strong>“Standardization of femtocells in 3GPP”</strong> In <em>IEEE Communications Magazine</em>, pp 68-75, doi:<a href="https://doi.org/10.1109/MCOM.2009.5277458">10.1109/MCOM.2009.5277458</a>, 2009.</li>
 
-	<li>Dimah Almani, Tim Muller, Xavier Carpent, Takahito Yoshizawa &amp; Steve Furnell, <strong>“Enabling Vehicle-to-Vehicle Trust in Rural Areas: An Evaluation of a Pre-Signature Scheme for Infrastructure-Limited Environments”</strong> In <em>Future Internet 16(3)</em>, 25 pages, doi:<a href="https://doi.org/10.3390/fi16030077">10.3390/fi16030077</a>, 2024.</li>
+  	<li>D.T. Chen, T. Yoshizawa <strong>“On the bandwidth analysis of a CDMA IP based distributed radio access network”</strong> In <em>Proceedings of the Fourth IASTED International Multi-Conference on Wireless and Optical Communications</em>, pp 590-595, 2004.</li>
 
-	<li>D. Balenson, C. Bösch, K. Han, M. Hoffmann, S. Pape, N. Trkulja, &amp; Takahito Yoshizawa, <strong>“Automotive Privacy Engineering”</strong> In <em>Sec.4.3 of Privacy Protection of Automated and Self-Driving Vehicles (Dagstuhl Seminar 23242)</em>, 41 pages, doi:<a href="https://doi.org/10.4230/DagRep.13.6.22">10.4230/DagRep.13.6.22</a>, 2024.</li>
+  </ul>
 
-	<li>Takahito Yoshizawa, An Braeken &amp; Bart Preneel, <strong>“Open Questions in VRU Standards from Security and Privacy Perspectives”</strong> In <em>IEEE Conference on Standards for Communications and Networking</em>, pp. 278-283, doi:<a href="https://doi.org/10.1109/CSCN60443.2023.10453165">10.1109/CSCN60443.2023.10453165</a>, 2023.</li>
+  <p>Full list of publications: <code><a href="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en" data-type="link" data-id="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en">Google Scholar</a></code></p>
+  <br>
 
-	<li>Dimah Almani, Tim Muller, Xavier Carpent, Steve Furnell, &amp; Takahito Yoshizawa, <strong>“Pre-Signature Scheme for Trustworthy Offline V2V Communication”</strong> In <em>Proceedings of the IFIP Information and Communication Technology, Lecture Notes in Computer Science, Springer-Verlag</em>, 16 pages, 2023.</li>
 
-	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Post-Quantum Impacts on V2X Certificates – Already at The End of The Road”</strong> In <em>IEEE Vehicular Technology Conference</em>, 6 pages, doi:<a href="https://doi.org/10.1109/VTC2023-Spring57618.2023.10199793">10.1109/VTC2023-Spring57618.2023.10199793</a>, 2023.</li>
+  <a id="other_academic_activities"></a>
+  <h2 class="wp-block-heading">OTHER ACADEMIC ACTIVITIES</h2>
 
-	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“A New Approach To Pseudonym Certificate Management in V2X Communication”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 25-32, doi:<a href="https://doi.org/10.1109/VNC57357.2023.10136349">10.1109/VNC57357.2023.10136349</a>, 2023.</li>
+  <p><strong>Notable Talks/Presentations:</strong></p>
+  <ul class="wp-block-list">
+    <li>PQC Impacts on V2X, PQCSA Workshop, Frankfurt, Germany, Nov. 2025 <img src="youtube_icon.png" alt="linkedin" width="25" height="25"><a href="https://www.youtube.com/watch?v=cud5q68fkm8">video</a></li>
+    <li>TLS Certificate Revocation – theory and reality, NAIST, Nara, Japan, Apr. 2025</li>
+    <!-- <li>. <strong>“”</strong> In <em></em>, .</li>	 -->
+  </ul>
 
-	<li>Takahito Yoshizawa, Dave Singelée, Jan Tobias Muehlberg, Stephane DELBRUEL, Daniel HUGHES, A. TAHERKORDI, &amp; Bart Preneel, <strong>“A Survey of Security and Privacy Issues in V2X Communication Systems”</strong> In <em>ACM Computing Surveys 55(9)</em>, pp. 1-36, doi:<a href="https://doi.org/10.1145/3558052">10.1145/3558052</a>, 2023.</li>
+  <p><strong>Technical Programme Committee:</strong></p>
+  <ul class="wp-block-list">
+    <li>8th International Workshop on Pervasive Computing for Vehicular Systems (PerVehicle) 2026</li>
+  	<li>IEEE Vehicular Networking Conference (VNC) 2025</li>
+  	<!-- <li>. <strong>“”</strong> In <em></em>, .</li>	 -->
+  </ul>
 
-	<li>Takahito Yoshizawa, Dave Singelée, Jan Tobias Muehlberg, Stephane DELBRUEL, Daniel HUGHES, A. TAHERKORDI, &amp; Bart Preneel, <strong>“A Survey of Security and Privacy Issues in V2X Communication Systems (Extended version)”</strong> In <em>ArXiv.org</em>, 36 pages, <a href="https://arxiv.org/abs/2208.14674">arxiv.org</a>, 2023.</li>
+  <p><strong>Paper Reviews:</strong></p>
+  <ul class="wp-block-list">
+  	<li>Automatika: Journal for Control, Measurement, Electronics, Computing and Communications</li>
+  	<li>Elsevier Computer Networks</li>
+  	<li>IEEE Communications Standards Magazine</li>
+  	<li>IEEE Conference on Standards for Communications and Networking (CSCN), 2023, 2024, 2025</li>
+  	<li>IEEE Internet of Things Journal</li>
+  	<li>IEEE Open Journal of the Communications Society</li>
+  	<li>IEEE Transactions on Industrial Cyber-Physical Systems</li>
+  	<li>IEEE Transactions on Information Forensics & Security</li>
+  	<li>IEEE Vehicular Networking Conference (VNC), 2024, 2025</li>
+  	<li>IEEE Vehicular Technology Conference (VTC), 2021</li>
+  	<li>IEEE Vehicular Technology Magazine</li>
+  	<li>Journal of Autonomous Intelligence</li>
+  	<li>Springer Nature - Journal of Big Data</li>
+  	<li>Springer Nature - Journal of Cloud Computing</li>
+  	<li>Springer Nature - Journal of Supercomuting</li>
+  </ul>
+  <a href="#top">back to top</a>
+  <br>
+  <br>
 
-	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Misbehaviour Reporting in ETSI ITS Standard Considered Broken”</strong> In <em>IEEE Conference on Standards for Communications and Networking</em>, 7 pages, doi:<a href="https://doi.org/10.1109/CSCN57023.2022.10050926">10.1109/CSCN57023.2022.10050926</a>, 2022.</li>
+  <a id="patents"></a>
+  <h2 class="wp-block-heading">PATENTS</h2>
+  <p><strong>Granted Patents:</strong></p>
+  <ul class="wp-block-list">
+  	<li>T Yoshizawa, N.P. Sasi, R. Rajendran, <strong>“Method and device for reducing security risk in communication”</strong>, <em>US Patent 12,342,247, 2025</em> </li>
 
-	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“On Handling of Certificate Digest in V2X Communication”</strong> In <em>IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WIMOB 2022)</em>, 6 pages, doi:<a href="https://doi.org/10.1109/WiMob55322.2022.9941683">10.1109/WiMob55322.2022.9941683</a>, 2022.</li>
+  	<li>S. Singh, T. Yoshizawa, <strong>“System and method of dual-sim ues operation in 5g networks”</strong>, <em>US Patent 12,232,070</em> </li>
 
-	<li>Takahito Yoshizawa, Dave Singelée &amp; Bart Preneel, <strong>“A New Privacy Enhancing Beacon Scheme in V2X Communication”</strong> In <em>Data Privacy Management, Autonomous Spontaneous Security, and Security Assurance, Lecture Notes in Computer Science</em>, Springer-Verlag, 12 pages, doi:<a href="https://doi.org/10.1007/978-3-030-93944-1_9">10.1007/978-3-030-93944-1_9</a>, 2021.</li>
+  	<li>R. Rajendran, P.K. Singaravelu, N.P. Sasi, T. Yoshizawa, <strong>“Source base station, UE, method in wireless communication system”</strong>, <em>US Patent 12,200,493</em> </li>
 
-	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Survey of Security Aspects of V2X Standards and Related Issues”</strong> In <em>IEEE Conference on Standards for Communications and Networking, J. Lopez-Soler and T. Taleb (Eds.)</em>, 5 pages, doi:<a href="https://doi.org/10.1109/CSCN.2019.8931311">10.1145/3190619.3190640</a>, 2019.</li>
-</ul>
+  	<li>S. De Kievit, T. Yoshizawa, <strong>“Master base station, secondary base station, user equipment (UE), and method”</strong>, <em>US Patent 12,114,162</em> </li>
 
-<p><strong>Other Research Papers:</strong></p>
-<ul class="wp-block-list">
-	<li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp Xiaoting Huang <strong>“5G Authentication Mechanisms”</strong> A book chapter in <em>5G Networks and Cybersecurity</em>, River Publisher, 2025</li>
+  	<li>A.R. Prasad, S. Lakshminarayanan, S.B.M. Baskaran, S. Arumugam, H. Ito, Takahito Yoshizawa, <strong>“Authentication method for next generation systems”</strong>, <em>US Patent 11,991,165</em> </li>
 
-	<li>Sayon Duttagupta, Dave Singelée, Xavier Carpent, Volkan Guler, Takahito Yoshizawa, Seyed Farhad Aghili, Aysajan Abidin, &amp Bart Preneel <strong>“CARPOOL: Secure And Reliable Proof of Location”</strong> In <em>Cryptology ePrint Archive</em>, <a href="https://eprint.iacr.org/2025/1502">iacr 2025 1502</a>, 2025</li>
+  	<li>S.B.M. Baskaran, S. Arumugam, A.R. Prasad, S. De Kievit, T. Yoshizawa, H. Ito, <strong>“Method, UE, and network for providing KDF negotiation”</strong>, <em>US Patent 11,962,999</em> </li>
 
-	<li>Roosbeh Sarenche, S. Aghili, Dave Singelée, &amp;  Takahito Yoshizawa <strong>“DASLog: Decentralized Auditable Secure Logging for UAV Ecosystems”</strong> In <em>IEEE Internet of Things Journal 10(23)</em>, pp. 20264-20284, doi:<a href="https://doi.org/10.1109/JIOT.2023.3281263">10.1109/JIOT.2023.3281263</a>, 2023</li>
+  	<li>S. De Kievit, H. Ito, A.R. Prasad, T. Yoshizawa, <strong>“Schemes and methods of integrity protection in mobile communication”</strong>, <em>US Patent 11,910,232</em> </li>
 
-	<li>Xiaoting Huang, Takahito Yoshizawa, &amp;  Sheeba Backia Mary Baskaran <strong>“Authentication Mechanisms in the 5G System”</strong> In <em>Journal of ICT Standardization 9(2)</em>, River Publisher, pp. 61-78, doi:<a href="https://doi.org/10.13052/jicts2245-800X.921">10.13052/jicts2245-800X.921</a>, 2021.</li>
+  	<li>S.B.M. Baskaran, S. Lakshminarayanan, A.R. Prasad, S. Arumugam, H. Ito, Takahito Yoshizawa, <strong>“Communication terminal, network apparatus, communication method, and de-concealment method”</strong>, <em>US Patent 11,877,148</em> </li>
 
-	<li>Takahito Yoshizawa, &amp; Bart Preneel (2020) <strong>“Verification Schemes of Multi-SIM Devices in Mobile Communication Systems”</strong> In <em>ACM International Symposium on Mobility Management and Wireless Access 2020</em>, 7 pages, doi:<a href="https://doi.org/10.1145/3416012.3424620">10.1145/3416012.3424620</a>, 2020.</li>
+  	<li>H. Ito, A.R. Prasad, S. Arumugam, T. Yoshizawa, S. Lakshminarayanan, ..., <strong>“Integrity protection for user plane data in 5G network”</strong>, <em>US Patent 11,722,897</em> </li>
 
-	<li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp;  Andreas Kunz <strong>“Overview of 5G URLLC System and Security Aspects in 3GPP”</strong> In <em>IEEE Conference on Standards for Communications and Networking, J. Lopez-Soler and T. Taleb (Eds.)</em>, 5 pages, doi:<a href="https://doi.org/10.1109/CSCN.2019.8931376">10.1109/CSCN.2019.8931376</a>, 2019.</li>
+  	<li>S.B.M. Baskaran, S. Lakshminarayanan, A.R. Prasad, S. Arumugam, H. Ito, Takahito Yoshizawa, <strong>“Communication terminal, network apparatus, communication method, and de-concealment method”</strong>, <em>US Patent 11,290,874</em> </li>
 
-	<li>D.N. Knisely, T. Yoshizawa, F. Favichia <strong>“Standardization of femtocells in 3GPP”</strong> In <em>IEEE Communications Magazine</em>, pp 68-75, doi:<a href="https://doi.org/10.1109/MCOM.2009.5277458">10.1109/MCOM.2009.5277458</a>, 2009.</li>
+  	<li>T. Yoshizawa, I.S. Gandhi, S.A. Anantha, Y. Zhang <strong>“Call preservation on handover”</strong>, <em>US Patent 10,757,610</em> </li>
 
-	<li>D.T. Chen, T. Yoshizawa <strong>“On the bandwidth analysis of a CDMA IP based distributed radio access network”</strong> In <em>Proceedings of the Fourth IASTED International Multi-Conference on Wireless and Optical Communications</em>, pp 590-595, 2004.</li>
+  	<li>T. Yoshizawa, I.S. Gandhi, S.A. Anantha, Y. Zhang, <strong>“Call preservation on handover”</strong>, <em>US Patent 10,104,582</em> </li>
 
-</ul>
+  	<li>T. Yoshizawa, R. Kwan, <strong>“Almost blank subframe based orthogonal resource allocation in a wireless network environment”</strong>, <em>US Patent 10,039,095</em> </li>
 
-<p>Full list of publications: <code><a href="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en" data-type="link" data-id="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en">Google Scholar</a></code></p>
-<br>
+  	<li>T. Yoshizawa, <strong>“System and method for redirecting a mobile device”</strong>, <em>US Patent 9,844,021</em> </li>
 
+  	<li>T. Yoshizawa <strong>“Method and system for performing service admission control”</strong>, <em>US Patent 9,549,414</em> </li>
 
-<a id="other_academic_activities"></a>
-<h4 class="wp-block-heading">OTHER ACADEMIC ACTIVITIES</h4>
+  	<li>T. Yoshizawa, R. Kwan, <strong>“Almost blank subframe based orthogonal resource allocation in a wireless network environment”</strong>, <em>US Patent 9,398,586</em> </li>
 
-<p><strong>Technical Programme Committee:</strong></p>
-<ul class="wp-block-list">
-  <li>8th International Workshop on Pervasive Computing for Vehicular Systems (PerVehicle) 2026</li>
-	<li>IEEE Vehicular Networking Conference (VNC) 2025</li>
-	<!-- <li>. <strong>“”</strong> In <em></em>, .</li>	 -->
-</ul>
-<p><strong>Paper Reviews:</strong></p>
-<ul class="wp-block-list">
-	<li>Automatika: Journal for Control, Measurement, Electronics, Computing and Communications</li>
-	<li>Elsevier Computer Networks</li>
-	<li>IEEE Communications Standards Magazine</li>
-	<li>IEEE Conference on Standards for Communications and Networking (CSCN), 2023, 2024, 2025</li>
-	<li>IEEE Internet of Things Journal</li>
-	<li>IEEE Open Journal of the Communications Society</li>
-	<li>IEEE Transactions on Industrial Cyber-Physical Systems</li>
-	<li>IEEE Transactions on Information Forensics & Security</li>
-	<li>IEEE Vehicular Networking Conference (VNC), 2024, 2025</li>
-	<li>IEEE Vehicular Technology Conference (VTC), 2021</li>
-	<li>IEEE Vehicular Technology Magazine</li>
-	<li>Journal of Autonomous Intelligence</li>
-	<li>Springer Nature - Journal of Big Data</li>
-	<li>Springer Nature - Journal of Cloud Computing</li>
-	<li>Springer Nature - Journal of Supercomuting</li>
-</ul>
-<br>
+  	<li>T. Yoshizawa, R. Kwan, <strong>“Almost blank subframe based orthogonal resource allocation in a wireless network environment”</strong>, <em>US Patent 9,288,804</em> </li>
 
-<a id="patents"></a>
-<h4 class="wp-block-heading">PATENTS</h4>
-<p><strong>Granted Patents:</strong></p>
-<ul class="wp-block-list">
-	<li>T Yoshizawa, N.P. Sasi, R. Rajendran, <strong>“Method and device for reducing security risk in communication”</strong>, <em>US Patent 12,342,247, 2025</em> </li>
+  	<li>T. Yoshizawa, <strong>“Method and system for performing service admission control”</strong>, <em>US Patent 8,892,111</em> </li>
 
-	<li>S. Singh, T. Yoshizawa, <strong>“System and method of dual-sim ues operation in 5g networks”</strong>, <em>US Patent 12,232,070</em> </li>
+  	<li>T. Yoshizawa, <strong>“Method for configuring a plurality of parameters in a device”</strong>,<em>US Patent 8,868,055</em> </li>
 
-	<li>R. Rajendran, P.K. Singaravelu, N.P. Sasi, T. Yoshizawa, <strong>“Source base station, UE, method in wireless communication system”</strong>, <em>US Patent 12,200,493</em> </li>
+  	<li>K.E. Miller, G.C. Ladden, T. Yoshizawa, <strong>“System and method for sonet equipment fault management”</strong>, <em>US Patent 7,929,860</em> </li>
 
-	<li>S. De Kievit, T. Yoshizawa, <strong>“Master base station, secondary base station, user equipment (UE), and method”</strong>, <em>US Patent 12,114,162</em> </li>
+  	<li>T. Yoshizawa, <strong>“Dynamic reduction of route reconvergence time”</strong>, <em>US Patent 7,570,581</em> </li>
+  </ul>
 
-	<li>A.R. Prasad, S. Lakshminarayanan, S.B.M. Baskaran, S. Arumugam, H. Ito, Takahito Yoshizawa, <strong>“Authentication method for next generation systems”</strong>, <em>US Patent 11,991,165</em> </li>
+  <p><strong>Pending Patents:</strong></p>
+  <ul class="wp-block-list">
+  	<li>S Singh, T Yoshizawa, <strong>“SYSTEM AND METHOD OF DUAL-SIM UES OPERATION IN 5G NETWORKS”</strong>, <em>US Patent App. 19/000,805</em> </li>
 
-	<li>S.B.M. Baskaran, S. Arumugam, A.R. Prasad, S. De Kievit, T. Yoshizawa, H. Ito, <strong>“Method, UE, and network for providing KDF negotiation”</strong>, <em>US Patent 11,962,999</em> </li>
+  	<li>H. Ito, A.R. Prasad, S. Arumugam, T. Yoshizawa, S. Lakshminarayanan, ..., <strong>“INTEGRITY PROTECTION FOR USER PLANE DATA IN 5G NETWORK”</strong>, <em>US Patent App. 18/208,759</em> </li>
 
-	<li>S. De Kievit, H. Ito, A.R. Prasad, T. Yoshizawa, <strong>“Schemes and methods of integrity protection in mobile communication”</strong>, <em>US Patent 11,910,232</em> </li>
+  	<li>S.B.M. Baskaran, L. Hmi, N. Sivakamy, A.R. Prasad, S. Arumugam, H. Ito, T. Yoshizawa, <strong>“COMMUNICATION TERMINAL, NETWORK APPARATUS, COMMUNICATION METHOD, AND DE-CONCEALMENT METHOD”</strong>, <em>US Patent App. 17/672,274</em> </li>
 
-	<li>S.B.M. Baskaran, S. Lakshminarayanan, A.R. Prasad, S. Arumugam, H. Ito, Takahito Yoshizawa, <strong>“Communication terminal, network apparatus, communication method, and de-concealment method”</strong>, <em>US Patent 11,877,148</em> </li>
+  	<li>T. Yoshizawa, N.P. Sasi, R. Rajendran, <strong>“COMMUNICATION SYSTEM, USER EQUIPMENT, COMMUNICATION METHOD AND COMPUTER READABLE MEDIUM”</strong>, <em>US Patent App. 17/629,595</em> </li>
 
-	<li>H. Ito, A.R. Prasad, S. Arumugam, T. Yoshizawa, S. Lakshminarayanan, ..., <strong>“Integrity protection for user plane data in 5G network”</strong>, <em>US Patent 11,722,897</em> </li>
+  	<li>N.P. Sasi, R. Rajendran, T. Yoshizawa, T Tamura, <strong>“CREDENTIAL STORAGE AND SELECTION OF CREDENTIALS FOR NON-PUBLIC NETWORK”</strong>, <em>US Patent App. 17/617,458</em> </li>
 
-	<li>S.B.M. Baskaran, S. Lakshminarayanan, A.R. Prasad, S. Arumugam, H. Ito, Takahito Yoshizawa, <strong>“Communication terminal, network apparatus, communication method, and de-concealment method”</strong>, <em>US Patent 11,290,874</em> </li>
+  	<li>T. Yoshizawa, S. Singh, S. De Kievit, <strong>“METHODS AND PROCESS OF VERIFYING MULTI-SIM DEVICE AND SUBSCRIPTION INFORMATION”</strong>, <em>US Patent App. 17/605,038</em> </li>
 
-	<li>T. Yoshizawa, I.S. Gandhi, S.A. Anantha, Y. Zhang <strong>“Call preservation on handover”</strong>, <em>US Patent 10,757,610</em> </li>
+  	<li>A.R. Prasad, S. Lakshminarayanan, S.B.M. Baskaran, S. Arumugam, H. Ito, T. Yoshizawa, <strong>“Authentication method for next generation systems”</strong>, <em>US Patent App. 17/549,156</em> </li>
 
-	<li>T. Yoshizawa, I.S. Gandhi, S.A. Anantha, Y. Zhang, <strong>“Call preservation on handover”</strong>, <em>US Patent 10,104,582</em> </li>
+  	<li>A.R. Prasad, S. De Kievit, H. Ito, Takahito Yoshizawa, <strong>“Integrity protection schemes in mobile communication”</strong>, <em>US Patent App. 17/285,991</em> </li>
 
-	<li>T. Yoshizawa, R. Kwan, <strong>“Almost blank subframe based orthogonal resource allocation in a wireless network environment”</strong>, <em>US Patent 10,039,095</em> </li>
+  	<li>S. De Kievit, H. Ito, A.R. Prasad, T. Yoshizawa, <strong>“Schemes and methods of integrity protection in mobile communication”</strong>, <em>US Patent App. 17/284,893</em> </li>
 
-	<li>T. Yoshizawa, <strong>“System and method for redirecting a mobile device”</strong>, <em>US Patent 9,844,021</em> </li>
+  	<li>H. Ito, A.R. Prasad, T. Yoshizawa, S.B.M. BASKARAN, S. ARUMUGAM, ...,  <strong>“Security procedures for common api framework in next generation networks”</strong>, <em>US Patent App. 17/044,383</em> </li>
 
-	<li>T. Yoshizawa <strong>“Method and system for performing service admission control”</strong>, <em>US Patent 9,549,414</em> </li>
+  	<li>H. Ito, A.R. Prasad, S. Arumugam, T. Yoshizawa, S. Lakshminarayanan,  <strong>“Integrity protection for user plane data in 5g network”</strong>, <em>US Patent App. 16/969,363</em> </li>
 
-	<li>T. Yoshizawa, R. Kwan, <strong>“Almost blank subframe based orthogonal resource allocation in a wireless network environment”</strong>, <em>US Patent 9,398,586</em> </li>
+  	<li>T. Yoshizawa, G. Velev, A Kunz, <strong>“Communication system”</strong>, <em>US Patent App. 16/338,506</em> </li>
 
-	<li>T. Yoshizawa, R. Kwan, <strong>“Almost blank subframe based orthogonal resource allocation in a wireless network environment”</strong>, <em>US Patent 9,288,804</em> </li>
+  	<li>T. Yoshizawa, <strong>“System and Method for Redirecting a Mobile Device”</strong>, <em>US Patent App. 15/975,239</em> </li>
 
-	<li>T. Yoshizawa, <strong>“Method and system for performing service admission control”</strong>, <em>US Patent 8,892,111</em> </li>
+  	<li>T. Yoshizawa <strong>“System and Method for Redirecting a Mobile Device”</strong>, <em>US Patent App. 15/664,099</em> </li>
 
-	<li>T. Yoshizawa, <strong>“Method for configuring a plurality of parameters in a device”</strong>,<em>US Patent 8,868,055</em> </li>
+  	<li>T. Yoshizawa <strong>“System and method for efficient traffic distribution in a network”</strong>, <em>US Patent App. 11/409,910</em> </li>
+  </ul>
+  <p>Full list of patents: <code><a href="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en" data-type="link" data-id="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en">Google Scholar</a></code></p>
+  <a href="#top">back to top</a>
+  <br>
+  <br>
 
-	<li>K.E. Miller, G.C. Ladden, T. Yoshizawa, <strong>“System and method for sonet equipment fault management”</strong>, <em>US Patent 7,929,860</em> </li>
 
-	<li>T. Yoshizawa, <strong>“Dynamic reduction of route reconvergence time”</strong>, <em>US Patent 7,570,581</em> </li>
-</ul>
 
-<p><strong>Pending Patents:</strong></p>
-<ul class="wp-block-list">
-	<li>S Singh, T Yoshizawa, <strong>“SYSTEM AND METHOD OF DUAL-SIM UES OPERATION IN 5G NETWORKS”</strong>, <em>US Patent App. 19/000,805</em> </li>
+  <a id="other_info"></a>
+  <h2 class="wp-block-heading">OTHER (MISC) INFO</h2>
+  <p><strong>Interest:</strong></p>
+  	<p>Reading, Engineering, Teaching, History, Music, Learning something new, Gaining insights and perspectives on various things,...</p>
 
-	<li>H. Ito, A.R. Prasad, S. Arumugam, T. Yoshizawa, S. Lakshminarayanan, ..., <strong>“INTEGRITY PROTECTION FOR USER PLANE DATA IN 5G NETWORK”</strong>, <em>US Patent App. 18/208,759</em> </li>
+  <p><strong>Motto:</strong></p>
+  	<p>Honesty goes a long way. </p>
+  	<p>Be willing to lose a battle in order to win a war.</p>
+  	<p>The only constant thing in life is changes.</p>
+  	<p>(more of an observation, but) People's nature is essentially the same regardless of where they come from and langurage and cultural differences, etc. </p>
 
-	<li>S.B.M. Baskaran, L. Hmi, N. Sivakamy, A.R. Prasad, S. Arumugam, H. Ito, T. Yoshizawa, <strong>“COMMUNICATION TERMINAL, NETWORK APPARATUS, COMMUNICATION METHOD, AND DE-CONCEALMENT METHOD”</strong>, <em>US Patent App. 17/672,274</em> </li>
+  <p><strong>Language:</strong></p>
+  <p>Japanese (native), English (99.9%-native), Dutch (intermediate), German (elementary) </p>
+  <br>
+
+  <a href='https://www.free-counters.org/'>www.free-counters.org</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=7a539f8f1e283bfeb8f60a9053018d5b8fb3c16d'></script>
+  <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1275773/t/5"></script>
 
-	<li>T. Yoshizawa, N.P. Sasi, R. Rajendran, <strong>“COMMUNICATION SYSTEM, USER EQUIPMENT, COMMUNICATION METHOD AND COMPUTER READABLE MEDIUM”</strong>, <em>US Patent App. 17/629,595</em> </li>
+  <br><br>
+  <div class="bottom-nav">
+    <div>
+  		<p style="color:gray;">Last Update: 2025-12-03 </p>
+  	</div>
+  </div>
+
+  </div>
+
+  <!--
+  <a href='https://www.free-counters.org/'>www.free-counters.org</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=7a539f8f1e283bfeb8f60a9053018d5b8fb3c16d'></script>
+  <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1275773/t/5"></script>
+  </article>
+  </div>
+
+
+  <h3 id="en-title">Welcome to My Page</h3>
+  <p id="en-desc">
+    This is an example of switchable English and Japanese text.
+  </p>
+
+  <h2 id="en-section1-title">About Me</h2>
+  <p id="en-section1-text">
+    I am a developer who enjoys creating interactive interfaces.
+  </p>
+
+  <h2 id="en-section2-title">Contact</h2>
+  <p id="en-section2-text">
+    Feel free to reach out anytime.
+  </p>
+
+</div> -->
+
+<!-- ========================================================================================================
+     JAPANESE CONTENT
+============================================================================================================= -->
+<div id="lang-ja" class="hidden">
+
+  <a id="top_j"> </a>
+  <!-- Navigation links to sections -->
+  <div class="top-nav">
+      <a href="#overview-jp">概要</a>
+      <a href="#work_history_experience-jp">職歴</a>
+      <a href="#education-jp">学歴</a>
+      <a href="#research_work-jp">研究内容</a>
+      <a href="#research_papers-jp">論文</a>
+      <a href="#patents-jp">特許</a>
+      <a href="#other_info-jp">その他</a>
+  </div>
+
+  <!-- Profile section -->
+  <div id="profile" class="profile-box-row">
+    <div class="photo">
+        <img src="Taka_photo2.jpg" alt="Profile Photo">
+    </div>
+    <div class="profile-box">
+        <div class="name" id="page-title">吉澤　敬人</div>
+        <!-- <div class="role" id="job-title">Takahito (Taka) Yoshizawa</div> -->
+        <div class="role2" id="job-title2">サイバーセキュリティ研究、テレコム・標準化・ネットワークシステム・エンジニア</div>
+                <div id="flags"><img src="belgium_flag_icon.png" width="55" height="35"><img src="blank.png" width="20" height="15"><img src="japan_flag_icon.png" width="55" height="35"></div>
+    </div>
+
+    <div class="profile-box">
+      <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+      <p> <img src="icon_email.png" alt="email" width="25" height="25"> <code><a href="mailto:takahito.yoshizawa@esat.kuleuven.be">takahito.yoshizawa at esat.kuleuven.be</a></code></p>
+      <p> <img src="icon_linkedin.png" alt="linkedin" width="25" height="25"> <code><a href="https://www.linkedin.com/in/takayoshizawa/" data-type="link" data-id="https://www.linkedin.com/in/takayoshizawa/">https://www.linkedin.com/in/takayoshizawa/</a></code></p>
+      <p> <img src="icon_office.png" alt="office" width="25" height="25"> Departement Elektrotechniek (ESAT), Kasteelpark Arenberg 10, 3001 Leuven, Belgium (office 01.13)<br></p>
+      </blockquote>
+    </div>
+    <button class="lang-btn" onclick="toggleLang()">English</button>
+  </div>
+
+  <a id="overview-jp"> </a>
+  <h2 class="wp-block-heading">概要</h2>
+  <p>吉澤と申します。名古屋出身です。就職後数年間ソフトウェア開発の世界に身を置いた後、大学進学のためにアメリカへ渡ることを決めました。
+それ以来、人生の半分以上にあたる長い年月を、私は日本国外で過ごしてきました。約30年間、モバイル通信業界でエンジニアとして従事した後、
+アカデミックの世界への転身をし、博士の学位を取得しました。
+その過程に於いて、様々なことを経験し、多くのものを見て、多くのことを学びました。複数の国で仕事をし、多くの国々の人々と出会い、共に仕事をしてきました。
+今の自分はこうした人生経験の積み重ねであると考えます。
+  </p>
+
+  <a id="work_history_experience-jp"> </a>
+  <h2 class="wp-block-heading">職歴</h2>
+  <p>私は一貫して通信業界の世界で技術職としての経験を重ね、複数の国の様々な企業でほぼ一貫してモバイルシステムのインフラ製品開発分野に携わってきました。
+    勤務先は多国籍大手企業から小規模スタートアップまで多岐にわたり、その結果多様な環境での貴重な経験をいたしました。
+職務内容は、次世代システム設計、アーキテクチャ、仕様の策定、ソフトウェア開発、テスト、システム統合、導入、顧客サポートに至るまで、
+通信インフラシステム／製品開発ライフサイクルに関連するほぼ全てのエンジニアリング業務を経験しました。
+  </p>
+  <p>今までに携わった技術職としてのもう一つの別の部分として、10年以上にもわたる<a href="https://www.3gpp.org">3GPP</a>などの標準化活動への関与があります。
+これらの国際標準の仕様書では内容とその記述の困難さのため、それらを理解することは決して簡単ではありません。
+3GPPへの長年の関与を通じて、標準仕様書作成に関する深い洞察と知識を身につけた結果、これらの標準規格の仕様書を比較的素早く理解することができるようになりました。
+  </p>
+  <p>これとは別に、様々な国や文化圏で働き、異なる文化的背景を持つ多くの国々出身の（元）同僚たちと接した経験こそが、私にとって最も重要で貴重な無形資産となりました。
+比較的最近になって、博士号の取得を決意し、無事にやり終えました。現在は大学で研究と教育活動を継続しています。
+この企業とは違った環境での経験は、私にまた新たな視点を与えてくれました。
+  </p>
+
+  <!-- <img srcset="timeline.jpg" alt=""> -->
+  <a id="work_history_experience_fig-jp"> </a>
+  <figure><img fetchpriority="high" decoding="async" src="timeline.jpg" alt="" class="wp-image-418"  /></figure>
+  <br/>
+
+  <p>
+  <strong>2022 - 2025:</strong> タオ・コンサルティング (ベルギー、ボーム)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>テレコム・コンサルティング</u> -- 顧客の将来のビジネス化を目的とした、モバイルテレコムシステムの新技術に関する技術調査および３GPPの標準仕様書の詳細の分析、レポート作成、およびプレゼンテーション。</li>
+  </ul>
+
+  <p>
+  <strong>2019 - 2025:</strong>　ルーベンカトリック大学、電子工学科（ESAT）、COSICグループ (ベルギー、ルーベン)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>ポスドク研究</u> (2023~): V2Xセキュリティー・プライバシー保護の研究のおよび機械学習（強化学習）のセキュリティーに関する研究の継続、。</li>
+  	<li><u>レクチャー</u> (2020~): 「Master of Cybersecurity」（修士）でのモバイルシステムセキュリティーの講座、およびテレコムセキュリティーマネージメント講座でのTAを担当。</li>
+  	<li><u>PhDに向けた研究</u> (2019~2023), 通信システムのセキュリティー（主にV2X）を中心とした研究、および機械学習（強化学習）のセキュリティーに関する研究。</li>
+  </ul>
+
+  <p>
+  <strong>2015 - 2019:</strong> NEC ラボラトリー・ヨーロッパ、(ドイツ、ハイデルベルク)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>シニア標準化エンジニア</u> -- NECの代表として3GPP SA6（パブリックセーフティー）、SA3（セキュリティー）の会合に参加。ワークアイテム（WI)、スタディーアイテム（SI)に沿った寄書の準備及び各WGでの提案、および提案の標準化に向けた他会社の代表者との技術的議論の遂行。
+  		SA6: パブリックセーフティーLTE（PS-LTE)の標準化に関与（リリース15以降）。
+  		SA3: ５Gシステムのセキュリティー機能標準化に関与（リリース15以降）。
+  	</li>
+  </ul>
+
+  <p>
+  <strong>2011 - 2015:</strong> ユビキシス (英国、スインドン), シスコシステムズ (ベルギー、ディーゲム)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>シニアシステム・標準化エンジニア</u> -- 3GPP RAN3 (RANプロトコル）およびRANプレナリー会合への参加と貢献、およびスモールセルシステムの設計・開発に関わるシステムエンジニアリング。
+  	RAN3（WI、SI）およびRANプレナリーでの標準化活動のモニタリング、RANプレナリーにおけるRAN技術の標準化の状況把握および社内へのレポート作成。</li>
+  	<li>3G (UMTS) and 4G (LTE)フェムトセル・スモールセルシステムの新規機能のシステムエンジニアリング。顧客の要望を製品仕様に反映した社内向け仕様書の作成（2013年のシスコシステムズの転籍は同社によるユビキシス社の買収のため）。</li>
+  </ul>
+
+  <p>
+  <strong>2006 - 2010:</strong> トムソン / テクニカラー (ベルギー、エデゲム)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>システムアーキテクト</u> -- 3GPP RAN3 (RANプロトコル)、ブロードバンドフォーラム（BBF)、フェムトフォーラム（FF)での社の代表として参加。</li>
+  	<li>3G (UMTS)フェムトセル・スモールセルの製品設計開発。</li>
+  </ul>
+
+  <p>
+  <strong>1992 - 2006:</strong> モトローラ (アメリカ、イリノイ州、アーリントンハイツ)
+  </p>
+  <ul class="wp-block-list">
+  	<li><u>プリンシパル・スタッフ・エンジニア</u> (2002-2006), <u>シニア・・スタッフ・エンジニア</u> (2000-2002), <u>リード・エンジニア</u> (1998-2000) <u>シニア・エンジニア</u> (1996-1998), <u>エンジニア I, II</u> (1992-1996)</li>
+  	<li>2G (PDC)および3G (CDMA)インフラシステムのシステムエンジニアリング・開発・テスト・商用展開・システムサポートを行う。モバイルインフラシステムの製品開発における一連の技術職（次世代システム設計、詳細設計、ソフトウェア開発、商用展開）をすべて経験。</li>
+  </ul>
+
+  <p>
+  <strong>1982 - 1987:</strong> 名古屋 IGS, (日本、名古屋市)
+  </p>
+  <ul class="wp-block-list">
+  <li><u>ソフトウェアエンジニア、チームリーダー</u>銀行端末システムの専用OSおよび銀経業務ソフトウェアシステムの開発に従事。他ソフトウェア開発エンジニアのサポートおよび支援。</li>
+  </ul>
+  <a href="#top_j">トップに戻る</a>
+  <br>
+  <br>
+
+  <a id="education-jp"></a>
+  <h2 class="wp-block-heading">学歴</h2>
+  <p>
+    私の学歴と職歴は結果として入り組んだものになってしまいました（上記の<a href="#work_history_experience_fig-jp">図</a>を参照ください）。
+    意図的にそうしたわけではありませんが、社会人になってから勉強の重要性に気が付き、勉強のやり直しをしてきた結果としてそうなってしまったということです。
+    言ってみれば社会人になってからずっと勉強のやり直しをしてきたといえると思います。
+    このようなやり方は決してお勧めはできませんが、個人的にはやり切れた感があり、それには満足しています。
+  </p>
+
+  <ul class="wp-block-list">
+  <li>PhD, <strong>ルーベンカトリック大学 (KU Leuven) (ベルギー)</strong>, 博士論文タイトル: <em>「Digital Certificate Usage and Management in Vehicular Communication Systems」</em>, 2023 (<code><a href="https://lirias.kuleuven.be/4110578?limo=0" data-type="link" data-id="https://lirias.kuleuven.be/4110578?limo=0">ここ</a></code>)からダウンロード可です。</li>
+
+  <li>修士、テレコミュニケーション, <strong>サザンメソジスト大学 (米国、テキサス州) </strong>, 2002 </li>
+
+  <li>学士、情報・コンピューターサイエンス, <strong>ジョージア工科大学 (米国、ジョージア州) </strong>, 1992 </li>
+  </ul>
+  <a href="#top_j">トップに戻る</a>
+  <br>
+  <br>
+
+  <a id="research_work-jp"></a>
+  <h2 class="wp-block-heading">研究分野</h2>
+  <p>私の研究分野は主に通信システムのセキュリティーです。
+    自動車通信（V2X）は通信業界と自動車業界の融合する分野であり、研究分野としては面白い分野であると思います。
+    この新技術がどのような成果を収めるのかというところに興味があり、今後もこの点を見極めたいと考えています。
+  </p>
+  <p>
+    2023年にベルギーのルーベンカトリック大学に於いてPhDを取得しました。
+    博士論文は自動車通信におけるセキュリティーおよびプライバシー保護に関するもので、主に国際標準の仕様書の分析に関するものです。
+  </p>
+
+  <p><strong>研究内容:</strong></p>
+  <ul class="wp-block-list">
+  	<li>自動車通信(V2X)と協調・接続型自動モビリティー(CCAM)を含む通信システムのセキュリティーおよびプライバシー保護。</li>
+  	<li>自動運転(AV)に於ける強化学習（RL)のセキュリティー。</li>
+  </ul>
+  <a href="#top_j">トップに戻る</a>
+  <br>
+  <br>
+
+
+  <a id="research_papers-jp"></a>
+  <h2 class="wp-block-heading">学術論文</h2>
+
+  <p><strong>ML Security-Related Research Papers:</strong></p>
+  <ul class="wp-block-list">
+  	<li>Arpad Huszak, Takaito Yoshizawa, Alireza Aghabagherloo, Dave Singelée &amp; Bart Preneel (2025). <strong>“On Performance Improvement of Reinforcement Learning for Collision Avoidance in Autonomous Intersections”</strong> In <em>IEEE Access</em>, Vol. 13, pp. 189225-189241, doi:<a href="https://doi.org/10.1109/ACCESS.2025.3626936">10.1109/ACCESS.2025.3626936</a>, 2025.</li>
+  	<li>Takaito Yoshizawa, Alireza Aghabagherloo, Arpad Huszak, Csongor Ujvarosi, Dave Singelée &amp; Bart Preneel (2024). <strong>“Security-Focused Training Model of Reinforcement Learning in Autonomous Vehicles”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 215-218, doi:<a href="https://doi.org/10.1109/VNC61989.2024.10575985">10.1109/VNC61989.2024.10575985</a>, 2024.</li>
+  	<!-- <li>. <strong>“”</strong> In <em></em>, .</li>	 -->
+  </ul>
+
+  <p><strong>V2Xのセキュリティーに関する論文:</strong></p>
+  <ul class="wp-block-list">
+  	<li>Takahito Yoshizawa, <strong>“Security and Privacy of ITS Standards and Their Research Challenges”</strong> A book chapter in <em>Connected, Cooperative and Autonomous Mobility - Research Needs, Challenges and Future Perspectives</em>, IntechOpen, 2026 (to be published).</li>
+
+    <li>Takahito Yoshizawa,  &amp; Bart Preneel, <strong>“Intersections Are Not Good for Your Privacy”</strong> In <em>IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WIMOB 2024)</em>, pp. 166-171, doi:<a href="https://doi.org/10.1109/WiMob61911.2024.10770318">10.1109/WiMob61911.2024.10770318</a>, 2024.</li>
+
+  	<li>Takahito Yoshizawa, An Braeken &amp; Bart Preneel, <strong>“Toward Viable Security Solution for VRUs in V2X Communication”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 33-40, doi:<a href="https://doi.org/10.1109/VNC61989.2024.10576015">10.1109/VNC61989.2024.10576015</a>, 2024.</li>
+
+  	<li>Dimah Almani, Tim Muller, Xavier Carpent, Takahito Yoshizawa &amp; Steve Furnell, <strong>“Enabling Vehicle-to-Vehicle Trust in Rural Areas: An Evaluation of a Pre-Signature Scheme for Infrastructure-Limited Environments”</strong> In <em>Future Internet 16(3)</em>, 25 pages, doi:<a href="https://doi.org/10.3390/fi16030077">10.3390/fi16030077</a>, 2024.</li>
+
+  	<li>D. Balenson, C. Bösch, K. Han, M. Hoffmann, S. Pape, N. Trkulja, &amp; Takahito Yoshizawa, <strong>“Automotive Privacy Engineering”</strong> In <em>Sec.4.3 of Privacy Protection of Automated and Self-Driving Vehicles (Dagstuhl Seminar 23242)</em>, 41 pages, doi:<a href="https://doi.org/10.4230/DagRep.13.6.22">10.4230/DagRep.13.6.22</a>, 2024.</li>
+
+  	<li>Takahito Yoshizawa, An Braeken &amp; Bart Preneel, <strong>“Open Questions in VRU Standards from Security and Privacy Perspectives”</strong> In <em>IEEE Conference on Standards for Communications and Networking</em>, pp. 278-283, doi:<a href="https://doi.org/10.1109/CSCN60443.2023.10453165">10.1109/CSCN60443.2023.10453165</a>, 2023.</li>
+
+  	<li>Dimah Almani, Tim Muller, Xavier Carpent, Steve Furnell, &amp; Takahito Yoshizawa, <strong>“Pre-Signature Scheme for Trustworthy Offline V2V Communication”</strong> In <em>Proceedings of the IFIP Information and Communication Technology, Lecture Notes in Computer Science, Springer-Verlag</em>, 16 pages, 2023.</li>
+
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Post-Quantum Impacts on V2X Certificates – Already at The End of The Road”</strong> In <em>IEEE Vehicular Technology Conference</em>, 6 pages, doi:<a href="https://doi.org/10.1109/VTC2023-Spring57618.2023.10199793">10.1109/VTC2023-Spring57618.2023.10199793</a>, 2023.</li>
+
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“A New Approach To Pseudonym Certificate Management in V2X Communication”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 25-32, doi:<a href="https://doi.org/10.1109/VNC57357.2023.10136349">10.1109/VNC57357.2023.10136349</a>, 2023.</li>
+
+  	<li>Takahito Yoshizawa, Dave Singelée, Jan Tobias Muehlberg, Stephane DELBRUEL, Daniel HUGHES, A. TAHERKORDI, &amp; Bart Preneel, <strong>“A Survey of Security and Privacy Issues in V2X Communication Systems”</strong> In <em>ACM Computing Surveys 55(9)</em>, pp. 1-36, doi:<a href="https://doi.org/10.1145/3558052">10.1145/3558052</a>, 2023.</li>
+
+  	<li>Takahito Yoshizawa, Dave Singelée, Jan Tobias Muehlberg, Stephane DELBRUEL, Daniel HUGHES, A. TAHERKORDI, &amp; Bart Preneel, <strong>“A Survey of Security and Privacy Issues in V2X Communication Systems (Extended version)”</strong> In <em>ArXiv.org</em>, 36 pages, <a href="https://arxiv.org/abs/2208.14674">arxiv.org</a>, 2023.</li>
+
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Misbehaviour Reporting in ETSI ITS Standard Considered Broken”</strong> In <em>IEEE Conference on Standards for Communications and Networking</em>, 7 pages, doi:<a href="https://doi.org/10.1109/CSCN57023.2022.10050926">10.1109/CSCN57023.2022.10050926</a>, 2022.</li>
+
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“On Handling of Certificate Digest in V2X Communication”</strong> In <em>IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WIMOB 2022)</em>, 6 pages, doi:<a href="https://doi.org/10.1109/WiMob55322.2022.9941683">10.1109/WiMob55322.2022.9941683</a>, 2022.</li>
+
+  	<li>Takahito Yoshizawa, Dave Singelée &amp; Bart Preneel, <strong>“A New Privacy Enhancing Beacon Scheme in V2X Communication”</strong> In <em>Data Privacy Management, Autonomous Spontaneous Security, and Security Assurance, Lecture Notes in Computer Science</em>, Springer-Verlag, 12 pages, doi:<a href="https://doi.org/10.1007/978-3-030-93944-1_9">10.1007/978-3-030-93944-1_9</a>, 2021.</li>
+
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Survey of Security Aspects of V2X Standards and Related Issues”</strong> In <em>IEEE Conference on Standards for Communications and Networking, J. Lopez-Soler and T. Taleb (Eds.)</em>, 5 pages, doi:<a href="https://doi.org/10.1109/CSCN.2019.8931311">10.1145/3190619.3190640</a>, 2019.</li>
+  </ul>
 
-	<li>N.P. Sasi, R. Rajendran, T. Yoshizawa, T Tamura, <strong>“CREDENTIAL STORAGE AND SELECTION OF CREDENTIALS FOR NON-PUBLIC NETWORK”</strong>, <em>US Patent App. 17/617,458</em> </li>
+  <p><strong>その他研究論文:</strong></p>
+  <ul class="wp-block-list">
+  	<li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp Xiaoting Huang <strong>“5G Authentication Mechanisms”</strong> A book chapter in <em>5G Networks and Cybersecurity</em>, River Publisher, 2025</li>
 
-	<li>T. Yoshizawa, S. Singh, S. De Kievit, <strong>“METHODS AND PROCESS OF VERIFYING MULTI-SIM DEVICE AND SUBSCRIPTION INFORMATION”</strong>, <em>US Patent App. 17/605,038</em> </li>
+  	<li>Sayon Duttagupta, Dave Singelée, Xavier Carpent, Volkan Guler, Takahito Yoshizawa, Seyed Farhad Aghili, Aysajan Abidin, &amp Bart Preneel <strong>“CARPOOL: Secure And Reliable Proof of Location”</strong> In <em>Cryptology ePrint Archive</em>, <a href="https://eprint.iacr.org/2025/1502">iacr 2025 1502</a>, 2025</li>
 
-	<li>A.R. Prasad, S. Lakshminarayanan, S.B.M. Baskaran, S. Arumugam, H. Ito, T. Yoshizawa, <strong>“Authentication method for next generation systems”</strong>, <em>US Patent App. 17/549,156</em> </li>
+  	<li>Roosbeh Sarenche, S. Aghili, Dave Singelée, &amp;  Takahito Yoshizawa <strong>“DASLog: Decentralized Auditable Secure Logging for UAV Ecosystems”</strong> In <em>IEEE Internet of Things Journal 10(23)</em>, pp. 20264-20284, doi:<a href="https://doi.org/10.1109/JIOT.2023.3281263">10.1109/JIOT.2023.3281263</a>, 2023</li>
 
-	<li>A.R. Prasad, S. De Kievit, H. Ito, Takahito Yoshizawa, <strong>“Integrity protection schemes in mobile communication”</strong>, <em>US Patent App. 17/285,991</em> </li>
+  	<li>Xiaoting Huang, Takahito Yoshizawa, &amp;  Sheeba Backia Mary Baskaran <strong>“Authentication Mechanisms in the 5G System”</strong> In <em>Journal of ICT Standardization 9(2)</em>, River Publisher, pp. 61-78, doi:<a href="https://doi.org/10.13052/jicts2245-800X.921">10.13052/jicts2245-800X.921</a>, 2021.</li>
 
-	<li>S. De Kievit, H. Ito, A.R. Prasad, T. Yoshizawa, <strong>“Schemes and methods of integrity protection in mobile communication”</strong>, <em>US Patent App. 17/284,893</em> </li>
+  	<li>Takahito Yoshizawa, &amp; Bart Preneel (2020) <strong>“Verification Schemes of Multi-SIM Devices in Mobile Communication Systems”</strong> In <em>ACM International Symposium on Mobility Management and Wireless Access 2020</em>, 7 pages, doi:<a href="https://doi.org/10.1145/3416012.3424620">10.1145/3416012.3424620</a>, 2020.</li>
 
-	<li>H. Ito, A.R. Prasad, T. Yoshizawa, S.B.M. BASKARAN, S. ARUMUGAM, ...,  <strong>“Security procedures for common api framework in next generation networks”</strong>, <em>US Patent App. 17/044,383</em> </li>
+  	<li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp;  Andreas Kunz <strong>“Overview of 5G URLLC System and Security Aspects in 3GPP”</strong> In <em>IEEE Conference on Standards for Communications and Networking, J. Lopez-Soler and T. Taleb (Eds.)</em>, 5 pages, doi:<a href="https://doi.org/10.1109/CSCN.2019.8931376">10.1109/CSCN.2019.8931376</a>, 2019.</li>
 
-	<li>H. Ito, A.R. Prasad, S. Arumugam, T. Yoshizawa, S. Lakshminarayanan,  <strong>“Integrity protection for user plane data in 5g network”</strong>, <em>US Patent App. 16/969,363</em> </li>
+  	<li>D.N. Knisely, T. Yoshizawa, F. Favichia <strong>“Standardization of femtocells in 3GPP”</strong> In <em>IEEE Communications Magazine</em>, pp 68-75, doi:<a href="https://doi.org/10.1109/MCOM.2009.5277458">10.1109/MCOM.2009.5277458</a>, 2009.</li>
 
-	<li>T. Yoshizawa, G. Velev, A Kunz, <strong>“Communication system”</strong>, <em>US Patent App. 16/338,506</em> </li>
+  	<li>D.T. Chen, T. Yoshizawa <strong>“On the bandwidth analysis of a CDMA IP based distributed radio access network”</strong> In <em>Proceedings of the Fourth IASTED International Multi-Conference on Wireless and Optical Communications</em>, pp 590-595, 2004.</li>
 
-	<li>T. Yoshizawa, <strong>“System and Method for Redirecting a Mobile Device”</strong>, <em>US Patent App. 15/975,239</em> </li>
+  </ul>
 
-	<li>T. Yoshizawa <strong>“System and Method for Redirecting a Mobile Device”</strong>, <em>US Patent App. 15/664,099</em> </li>
+  <p>すべての論文リストはこちらを参照ください: <code><a href="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en" data-type="link" data-id="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en">Google Scholar</a></code></p>
+  <a href="#top_j">トップに戻る</a>
+  <br>
+  <br>
 
-	<li>T. Yoshizawa <strong>“System and method for efficient traffic distribution in a network”</strong>, <em>US Patent App. 11/409,910</em> </li>
-</ul>
-<p>Full list of patents: <code><a href="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en" data-type="link" data-id="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en">Google Scholar</a></code></p>
-<br>
 
-<a id="otherinfo"></a>
-<h4 class="wp-block-heading">OTHER (MISC) INFO</h4>
-<p><strong>Interest:</strong></p>
-	<p>Reading, Engineering, Teaching, History, Music, Learning something new, Gaining insights and perspectives on various things,...</p>
+  <a id="other_academic_activities"></a>
+  <h2 class="wp-block-heading">その他のアカデミック活動</h2>
 
-<p><strong>Motto:</strong></p>
-	<p>Honesty goes a long way. </p>
-	<p>Be willing to lose a battle in order to win a war.</p>
-	<p>The only constant thing in life is changes.</p>
-	<p>(more of an observation, but) People's nature is essentially the same regardless of where they come from and langurage and cultural differences, etc. </p>
+  <p><strong>主なプレゼンテーション・レクチャー:</strong></p>
+  <ul class="wp-block-list">
+    <li>「PQC Impacts on V2X」、PQCSA ワークショップ、ドイツ・フランクフルト、2025年11月 <img src="youtube_icon.png" alt="linkedin" width="25" height="25"><a href="https://www.youtube.com/watch?v=cud5q68fkm8">video</a></li>
+    <li>「TLS Certificate Revocation – theory and reality」、 奈良先端科学技術大学、奈良県、2025年4月</li>
+    <!-- <li>. <strong>“”</strong> In <em></em>, .</li>	 -->
+  </ul>
 
-<p><strong>Language:</strong></p>
-<p>Japanese (native), English (99.9%-native), Dutch (intermediate), German (elementary) </p>
+  <p><strong>テクニカルプログラムコミッティー:</strong></p>
+  <ul class="wp-block-list">
+    <li>8th International Workshop on Pervasive Computing for Vehicular Systems (PerVehicle) 2026</li>
+  	<li>IEEE Vehicular Networking Conference (VNC) 2025</li>
+  	<!-- <li>. <strong>“”</strong> In <em></em>, .</li>	 -->
+  </ul>
 
-</div>
-<a href='https://www.free-counters.org/'>www.free-counters.org</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=7a539f8f1e283bfeb8f60a9053018d5b8fb3c16d'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1275773/t/5"></script>
-</article>
-</div>
+  <p><strong>論文の査読:</strong></p>
+  <ul class="wp-block-list">
+  	<li>Automatika: Journal for Control, Measurement, Electronics, Computing and Communications</li>
+  	<li>Elsevier Computer Networks</li>
+  	<li>IEEE Communications Standards Magazine</li>
+  	<li>IEEE Conference on Standards for Communications and Networking (CSCN), 2023, 2024, 2025</li>
+  	<li>IEEE Internet of Things Journal</li>
+  	<li>IEEE Open Journal of the Communications Society</li>
+  	<li>IEEE Transactions on Industrial Cyber-Physical Systems</li>
+  	<li>IEEE Transactions on Information Forensics & Security</li>
+  	<li>IEEE Vehicular Networking Conference (VNC), 2024, 2025</li>
+  	<li>IEEE Vehicular Technology Conference (VTC), 2021</li>
+  	<li>IEEE Vehicular Technology Magazine</li>
+  	<li>Journal of Autonomous Intelligence</li>
+  	<li>Springer Nature - Journal of Big Data</li>
+  	<li>Springer Nature - Journal of Cloud Computing</li>
+  	<li>Springer Nature - Journal of Supercomuting</li>
+  </ul>
+  <a href="#top_j">トップに戻る</a>
+  <br>
+  <br>
 
+  <a id="patents-jp"></a>
+  <h2 class="wp-block-heading">特許</h2>
+  <p><strong>認可済の特許:</strong></p>
+  <ul class="wp-block-list">
+  	<li>T Yoshizawa, N.P. Sasi, R. Rajendran, <strong>“Method and device for reducing security risk in communication”</strong>, <em>US Patent 12,342,247, 2025</em> </li>
 
-<ul class="langswitch"><div class="langswitch">
-	<ul class="dropdown-menu" aria-labelledby="lang-menu">
-		<li><a href="index_jpn.html" class="dropdown-item"><strong>日本語</strong></a></li>
-	</ul>
-</div></ul>
+  	<li>S. Singh, T. Yoshizawa, <strong>“System and method of dual-sim ues operation in 5g networks”</strong>, <em>US Patent 12,232,070</em> </li>
 
-	<!-- <aside class="mh-widget-col-1 mh-sidebar" itemscope="itemscope" itemtype="https://schema.org/WPSideBar"><div id="search-2" class="mh-widget widget_search"><form role="search" method="get" class="search-form" action="https://cybersecurity.ulb.ac.be/"> -->
-	<aside class="mh-widget-col-1 mh-sidebar" itemscope="itemscope" itemtype="https://schema.org/WPSideBar">
-		<!--
-		<div id="search-2" class="mh-widget widget_search">
-		<form role="search" method="get" class="search-form" action="https://www.google.com/?q=">
-				<label>
-					<span class="screen-reader-text">Search for:</span>
-					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
-				</label>
-				<input type="submit" class="search-submit" value="Search" />
-		</form>
-	</div> -->
+  	<li>R. Rajendran, P.K. Singaravelu, N.P. Sasi, T. Yoshizawa, <strong>“Source base station, UE, method in wireless communication system”</strong>, <em>US Patent 12,200,493</em> </li>
 
-	<div class="wp-block-image is-style-default">
-	<figure class="alignright size-full is-resized"><img fetchpriority="high" decoding="async" width="960" height="1280" src="Taka_photo2.jpg" alt="" class="wp-image-418" style="aspect-ratio:0.6666666666666666;object-fit:cover;width:200px" srcset="Taka_photo2.jpg 1920w, Taka_photo2.jpg 225w, Taka_photo2.jpg 768w, Taka_photo2.jpg 1152w, Taka_photo2.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
-	</div>
-</aside>
-</div>
+  	<li>S. De Kievit, T. Yoshizawa, <strong>“Master base station, secondary base station, user equipment (UE), and method”</strong>, <em>US Patent 12,114,162</em> </li>
 
+  	<li>A.R. Prasad, S. Lakshminarayanan, S.B.M. Baskaran, S. Arumugam, H. Ito, Takahito Yoshizawa, <strong>“Authentication method for next generation systems”</strong>, <em>US Patent 11,991,165</em> </li>
 
-</div><!-- .mh-container-outer -->
+  	<li>S.B.M. Baskaran, S. Arumugam, A.R. Prasad, S. De Kievit, T. Yoshizawa, H. Ito, <strong>“Method, UE, and network for providing KDF negotiation”</strong>, <em>US Patent 11,962,999</em> </li>
 
-<div class="mh-copyright-wrap">
-	<div class="mh-container mh-container-inner mh-clearfix">
-		<p class="mh-copyright">Last Update: 2025-11-10 </p>
-	</div>
-</div>
+  	<li>S. De Kievit, H. Ito, A.R. Prasad, T. Yoshizawa, <strong>“Schemes and methods of integrity protection in mobile communication”</strong>, <em>US Patent 11,910,232</em> </li>
+
+  	<li>S.B.M. Baskaran, S. Lakshminarayanan, A.R. Prasad, S. Arumugam, H. Ito, Takahito Yoshizawa, <strong>“Communication terminal, network apparatus, communication method, and de-concealment method”</strong>, <em>US Patent 11,877,148</em> </li>
+
+  	<li>H. Ito, A.R. Prasad, S. Arumugam, T. Yoshizawa, S. Lakshminarayanan, ..., <strong>“Integrity protection for user plane data in 5G network”</strong>, <em>US Patent 11,722,897</em> </li>
+
+  	<li>S.B.M. Baskaran, S. Lakshminarayanan, A.R. Prasad, S. Arumugam, H. Ito, Takahito Yoshizawa, <strong>“Communication terminal, network apparatus, communication method, and de-concealment method”</strong>, <em>US Patent 11,290,874</em> </li>
+
+  	<li>T. Yoshizawa, I.S. Gandhi, S.A. Anantha, Y. Zhang <strong>“Call preservation on handover”</strong>, <em>US Patent 10,757,610</em> </li>
+
+  	<li>T. Yoshizawa, I.S. Gandhi, S.A. Anantha, Y. Zhang, <strong>“Call preservation on handover”</strong>, <em>US Patent 10,104,582</em> </li>
+
+  	<li>T. Yoshizawa, R. Kwan, <strong>“Almost blank subframe based orthogonal resource allocation in a wireless network environment”</strong>, <em>US Patent 10,039,095</em> </li>
+
+  	<li>T. Yoshizawa, <strong>“System and method for redirecting a mobile device”</strong>, <em>US Patent 9,844,021</em> </li>
+
+  	<li>T. Yoshizawa <strong>“Method and system for performing service admission control”</strong>, <em>US Patent 9,549,414</em> </li>
+
+  	<li>T. Yoshizawa, R. Kwan, <strong>“Almost blank subframe based orthogonal resource allocation in a wireless network environment”</strong>, <em>US Patent 9,398,586</em> </li>
+
+  	<li>T. Yoshizawa, R. Kwan, <strong>“Almost blank subframe based orthogonal resource allocation in a wireless network environment”</strong>, <em>US Patent 9,288,804</em> </li>
+
+  	<li>T. Yoshizawa, <strong>“Method and system for performing service admission control”</strong>, <em>US Patent 8,892,111</em> </li>
+
+  	<li>T. Yoshizawa, <strong>“Method for configuring a plurality of parameters in a device”</strong>,<em>US Patent 8,868,055</em> </li>
+
+  	<li>K.E. Miller, G.C. Ladden, T. Yoshizawa, <strong>“System and method for sonet equipment fault management”</strong>, <em>US Patent 7,929,860</em> </li>
+
+  	<li>T. Yoshizawa, <strong>“Dynamic reduction of route reconvergence time”</strong>, <em>US Patent 7,570,581</em> </li>
+  </ul>
+
+  <p><strong>出願中の特許:</strong></p>
+  <ul class="wp-block-list">
+  	<li>S Singh, T Yoshizawa, <strong>“SYSTEM AND METHOD OF DUAL-SIM UES OPERATION IN 5G NETWORKS”</strong>, <em>US Patent App. 19/000,805</em> </li>
+
+  	<li>H. Ito, A.R. Prasad, S. Arumugam, T. Yoshizawa, S. Lakshminarayanan, ..., <strong>“INTEGRITY PROTECTION FOR USER PLANE DATA IN 5G NETWORK”</strong>, <em>US Patent App. 18/208,759</em> </li>
+
+  	<li>S.B.M. Baskaran, L. Hmi, N. Sivakamy, A.R. Prasad, S. Arumugam, H. Ito, T. Yoshizawa, <strong>“COMMUNICATION TERMINAL, NETWORK APPARATUS, COMMUNICATION METHOD, AND DE-CONCEALMENT METHOD”</strong>, <em>US Patent App. 17/672,274</em> </li>
+
+  	<li>T. Yoshizawa, N.P. Sasi, R. Rajendran, <strong>“COMMUNICATION SYSTEM, USER EQUIPMENT, COMMUNICATION METHOD AND COMPUTER READABLE MEDIUM”</strong>, <em>US Patent App. 17/629,595</em> </li>
+
+  	<li>N.P. Sasi, R. Rajendran, T. Yoshizawa, T Tamura, <strong>“CREDENTIAL STORAGE AND SELECTION OF CREDENTIALS FOR NON-PUBLIC NETWORK”</strong>, <em>US Patent App. 17/617,458</em> </li>
+
+  	<li>T. Yoshizawa, S. Singh, S. De Kievit, <strong>“METHODS AND PROCESS OF VERIFYING MULTI-SIM DEVICE AND SUBSCRIPTION INFORMATION”</strong>, <em>US Patent App. 17/605,038</em> </li>
+
+  	<li>A.R. Prasad, S. Lakshminarayanan, S.B.M. Baskaran, S. Arumugam, H. Ito, T. Yoshizawa, <strong>“Authentication method for next generation systems”</strong>, <em>US Patent App. 17/549,156</em> </li>
+
+  	<li>A.R. Prasad, S. De Kievit, H. Ito, Takahito Yoshizawa, <strong>“Integrity protection schemes in mobile communication”</strong>, <em>US Patent App. 17/285,991</em> </li>
+
+  	<li>S. De Kievit, H. Ito, A.R. Prasad, T. Yoshizawa, <strong>“Schemes and methods of integrity protection in mobile communication”</strong>, <em>US Patent App. 17/284,893</em> </li>
+
+  	<li>H. Ito, A.R. Prasad, T. Yoshizawa, S.B.M. BASKARAN, S. ARUMUGAM, ...,  <strong>“Security procedures for common api framework in next generation networks”</strong>, <em>US Patent App. 17/044,383</em> </li>
+
+  	<li>H. Ito, A.R. Prasad, S. Arumugam, T. Yoshizawa, S. Lakshminarayanan,  <strong>“Integrity protection for user plane data in 5g network”</strong>, <em>US Patent App. 16/969,363</em> </li>
+
+  	<li>T. Yoshizawa, G. Velev, A Kunz, <strong>“Communication system”</strong>, <em>US Patent App. 16/338,506</em> </li>
+
+  	<li>T. Yoshizawa, <strong>“System and Method for Redirecting a Mobile Device”</strong>, <em>US Patent App. 15/975,239</em> </li>
+
+  	<li>T. Yoshizawa <strong>“System and Method for Redirecting a Mobile Device”</strong>, <em>US Patent App. 15/664,099</em> </li>
+
+  	<li>T. Yoshizawa <strong>“System and method for efficient traffic distribution in a network”</strong>, <em>US Patent App. 11/409,910</em> </li>
+  </ul>
+  <p>すべての特許のリストはこちらを参照ください: <code><a href="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en" data-type="link" data-id="https://scholar.google.com/citations?user=crWH4wQAAAAJ&hl=en">Google Scholar</a></code></p>
+  <a href="#top_j">トップに戻る</a>
+  <br>
+  <br>
+
+  <a id="other_info-jp"></a>
+  <h2 class="wp-block-heading">その他</h2>
+  <p><strong>趣味・興味:</strong></p>
+  	<p>読書、 エンジニアリング、教育、歴史、音楽、新しい知識の習得、物事の本質を理解すること、等</p>
+
+  <p><strong>モットー:</strong></p>
+  	<p>Honesty goes a long way. </p>
+  	<p>Be willing to lose a battle in order to win a war.</p>
+  	<p>The only constant thing in life is changes.</p>
+  	<p>(more of an observation, but) People's nature is essentially the same regardless of where they come from and langurage and cultural differences, etc. </p>
+
+  <p><strong>言語:</strong></p>
+  <p>日本語 (母国語), 英語 (99.9%母国語), オランダ語 (中級レベル), ドイツ語 (初級レベル) </p>
+
+  <br>
+
+  <a href='https://www.free-counters.org/'>www.free-counters.org</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=7a539f8f1e283bfeb8f60a9053018d5b8fb3c16d'></script>
+  <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1275773/t/5"></script>
+
+  <br><br>
+  <div class="bottom-nav">
+  	<div>
+  		<p style="color:gray;">Last Update: 2025-12-03 </p>
+  	</div>
+  </div>
+
+  </div>
+
+  <!--
+  <a href='https://www.free-counters.org/'>www.free-counters.org</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=7a539f8f1e283bfeb8f60a9053018d5b8fb3c16d'></script>
+  <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1275773/t/5"></script>
+  </article>
+  </div>
+
+  <h3 id="ja-title">私のページへようこそ</h3>
+  <p id="ja-desc">
+    これは英語と日本語のテキストを切り替えるサンプルです。
+  </p>
+
+  <h2 id="ja-section1-title">自己紹介</h2>
+  <p id="ja-section1-text">
+    私はインタラクティブなインターフェースを作ることが好きな開発者です。
+  </p>
+
+  <h2 id="ja-section2-title">連絡先</h2>
+  <p id="ja-section2-text">
+    いつでもお気軽にご連絡ください。
+  </p>
+
+</div> -->
+
+<script>
+let current = "en";
+
+function toggleLang() {
+  if (current === "en") {
+    document.getElementById("lang-en").classList.add("hidden");
+    document.getElementById("lang-ja").classList.remove("hidden");
+    document.querySelector(".lang-btn").textContent = "English";
+    current = "ja";
+  } else {
+    document.getElementById("lang-ja").classList.add("hidden");
+    document.getElementById("lang-en").classList.remove("hidden");
+    document.querySelector(".lang-btn").textContent = "日本語";
+    current = "en";
+  }
+}
+</script>
 
 </body>
 </html>
