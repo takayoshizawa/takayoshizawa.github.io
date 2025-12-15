@@ -2,4 +2,4 @@
 
 This is my CV-like homepage.
 
-# Takahito (Taka) Yoshizawa
+Takahito (Taka) Yoshizawa
