@@ -6,7 +6,7 @@
       <br><br>
       <div class="bottom-nav">
         <div>
-          <p style="color:gray;">Last Update: 2025-12-15 </p>
+          <p style="color:gray;">Last Update: 2025-12-17 </p>
         </div>
       </div>
       `
