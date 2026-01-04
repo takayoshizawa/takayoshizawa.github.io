@@ -6,7 +6,7 @@
       <br><br>
       <div class="bottom-nav">
         <div>
-          <p style="color:gray;">Last Update: 2025-12-17 </p>
+          <p style="color:gray;">Last Update: 2026-01-04 </p>
         </div>
       </div>
       `
@@ -24,6 +24,16 @@
     }
   }
 
+  class PQCResearchPapers extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `
+      <ul class="wp-block-list">
+        <li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Post-Quantum Impacts on V2X Certificates – Already at The End of The Road”</strong> In <em>IEEE Vehicular Technology Conference</em>, 6 pages, doi:<a href="https://doi.org/10.1109/VTC2023-Spring57618.2023.10199793">10.1109/VTC2023-Spring57618.2023.10199793</a>, 2023.</li>
+      </ul>
+      `
+    }
+  }
+
   class V2XResearchPapers extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
@@ -35,7 +45,6 @@
         <li>D. Balenson, C. Bösch, K. Han, M. Hoffmann, S. Pape, N. Trkulja, &amp; Takahito Yoshizawa, <strong>“Automotive Privacy Engineering”</strong> In <em>Sec.4.3 of Privacy Protection of Automated and Self-Driving Vehicles (Dagstuhl Seminar 23242)</em>, 41 pages, doi:<a href="https://doi.org/10.4230/DagRep.13.6.22">10.4230/DagRep.13.6.22</a>, 2024.</li>
         <li>Takahito Yoshizawa, An Braeken &amp; Bart Preneel, <strong>“Open Questions in VRU Standards from Security and Privacy Perspectives”</strong> In <em>IEEE Conference on Standards for Communications and Networking</em>, pp. 278-283, doi:<a href="https://doi.org/10.1109/CSCN60443.2023.10453165">10.1109/CSCN60443.2023.10453165</a>, 2023.</li>
         <li>Dimah Almani, Tim Muller, Xavier Carpent, Steve Furnell, &amp; Takahito Yoshizawa, <strong>“Pre-Signature Scheme for Trustworthy Offline V2V Communication”</strong> In <em>Proceedings of the IFIP Information and Communication Technology, Lecture Notes in Computer Science, Springer-Verlag</em>, 16 pages, 2023.</li>
-        <li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“Post-Quantum Impacts on V2X Certificates – Already at The End of The Road”</strong> In <em>IEEE Vehicular Technology Conference</em>, 6 pages, doi:<a href="https://doi.org/10.1109/VTC2023-Spring57618.2023.10199793">10.1109/VTC2023-Spring57618.2023.10199793</a>, 2023.</li>
         <li>Takahito Yoshizawa, &amp; Bart Preneel, <strong>“A New Approach To Pseudonym Certificate Management in V2X Communication”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 25-32, doi:<a href="https://doi.org/10.1109/VNC57357.2023.10136349">10.1109/VNC57357.2023.10136349</a>, 2023.</li>
         <li>Takahito Yoshizawa, Dave Singelée, Jan Tobias Muehlberg, Stephane DELBRUEL, Daniel HUGHES, A. TAHERKORDI, &amp; Bart Preneel, <strong>“A Survey of Security and Privacy Issues in V2X Communication Systems”</strong> In <em>ACM Computing Surveys 55(9)</em>, pp. 1-36, doi:<a href="https://doi.org/10.1145/3558052">10.1145/3558052</a>, 2023.</li>
         <li>Takahito Yoshizawa, Dave Singelée, Jan Tobias Muehlberg, Stephane DELBRUEL, Daniel HUGHES, A. TAHERKORDI, &amp; Bart Preneel, <strong>“A Survey of Security and Privacy Issues in V2X Communication Systems (Extended version)”</strong> In <em>ArXiv.org</em>, 36 pages, <a href="https://arxiv.org/abs/2208.14674">arxiv.org</a>, 2023.</li>
@@ -52,6 +61,7 @@
     connectedCallback() {
       this.innerHTML = `
       <ul class="wp-block-list">
+        <li>Takahito Yoshizawa, Himanshu Agarwal, Dave Singelée, &amp Bart Preneel <strong>“Certificate Revocation – Search for A Way Forward”</strong> In <em>Computer &amp Security</em>, Elsevier, 2025</li>
         <li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp Xiaoting Huang <strong>“5G Authentication Mechanisms”</strong> A book chapter in <em>5G Networks and Cybersecurity</em>, River Publisher, 2025</li>
         <li>Sayon Duttagupta, Dave Singelée, Xavier Carpent, Volkan Guler, Takahito Yoshizawa, Seyed Farhad Aghili, Aysajan Abidin, &amp Bart Preneel <strong>“CARPOOL: Secure And Reliable Proof of Location”</strong> In <em>Cryptology ePrint Archive</em>, <a href="https://eprint.iacr.org/2025/1502">iacr 2025 1502</a>, 2025</li>
         <li>Roosbeh Sarenche, S. Aghili, Dave Singelée, &amp;  Takahito Yoshizawa <strong>“DASLog: Decentralized Auditable Secure Logging for UAV Ecosystems”</strong> In <em>IEEE Internet of Things Journal 10(23)</em>, pp. 20264-20284, doi:<a href="https://doi.org/10.1109/JIOT.2023.3281263">10.1109/JIOT.2023.3281263</a>, 2023</li>
@@ -155,6 +165,7 @@
 
 customElements.define('special-footer', SpecialFooter)
 customElements.define('ml-research-paper-list', MLResearchPapers)
+customElements.define('pqc-research-paper-list', PQCResearchPapers)
 customElements.define('v2x-research-paper-list', V2XResearchPapers)
 customElements.define('other-research-paper-list', OtherResearchPapers)
 customElements.define('tpc-list', TPCList)
