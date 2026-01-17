@@ -17,6 +17,8 @@
     connectedCallback() {
       this.innerHTML = `
       <ul class="wp-block-list">
+        <li>Arpad Huszak, Takaito Yoshizawa, Alireza Aghabagherloo &amp; Bart Preneel (2026). <strong>“Evaluating the Robustness of RL-based Autonomous Intersection Control to Data Integrity Attacks”</strong> In <em>8th International Workshop on
+Pervasive Computing for Vehicular Systems</em>, doi: TBD<a href=""></a>, 2025.</li>
         <li>Arpad Huszak, Takaito Yoshizawa, Alireza Aghabagherloo, Dave Singelée &amp; Bart Preneel (2025). <strong>“On Performance Improvement of Reinforcement Learning for Collision Avoidance in Autonomous Intersections”</strong> In <em>IEEE Access</em>, Vol. 13, pp. 189225-189241, doi:<a href="https://doi.org/10.1109/ACCESS.2025.3626936">10.1109/ACCESS.2025.3626936</a>, 2025.</li>
         <li>Takaito Yoshizawa, Alireza Aghabagherloo, Arpad Huszak, Csongor Ujvarosi, Dave Singelée &amp; Bart Preneel (2024). <strong>“Security-Focused Training Model of Reinforcement Learning in Autonomous Vehicles”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 215-218, doi:<a href="https://doi.org/10.1109/VNC61989.2024.10575985">10.1109/VNC61989.2024.10575985</a>, 2024.</li>
       </ul>
@@ -38,6 +40,7 @@
     connectedCallback() {
       this.innerHTML = `
       <ul class="wp-block-list">
+        <li>Roberto Gesteira Miñarro, Takahito Yoshizawa, Rafael Palacios, &amp, Gregorio López, <strong>“Highway to Hack – Security Gaps in ETSI ITS Standards”</strong> In <em>Computer Standards & Interfaces</em>, Elsevier, 2026 (to be published).</li>
         <li>Takahito Yoshizawa, <strong>“Security and Privacy of ITS Standards and Their Research Challenges”</strong> A book chapter in <em>Connected, Cooperative and Autonomous Mobility - Research Needs, Challenges and Future Perspectives</em>, IntechOpen, 2026 (to be published).</li>
         <li>Takahito Yoshizawa,  &amp; Bart Preneel, <strong>“Intersections Are Not Good for Your Privacy”</strong> In <em>IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WIMOB 2024)</em>, pp. 166-171, doi:<a href="https://doi.org/10.1109/WiMob61911.2024.10770318">10.1109/WiMob61911.2024.10770318</a>, 2024.</li>
         <li>Takahito Yoshizawa, An Braeken &amp; Bart Preneel, <strong>“Toward Viable Security Solution for VRUs in V2X Communication”</strong> In <em>IEEE Vehicular Networking Conference</em>, pp. 33-40, doi:<a href="https://doi.org/10.1109/VNC61989.2024.10576015">10.1109/VNC61989.2024.10576015</a>, 2024.</li>
@@ -61,7 +64,7 @@
     connectedCallback() {
       this.innerHTML = `
       <ul class="wp-block-list">
-        <li>Takahito Yoshizawa, Himanshu Agarwal, Dave Singelée, &amp Bart Preneel <strong>“Certificate Revocation – Search for A Way Forward”</strong> In <em>Computer &amp Security</em>, Elsevier, 2025</li>
+        <li>Takahito Yoshizawa, Himanshu Agarwal, Dave Singelée, &amp Bart Preneel <strong>“Certificate Revocation – Search for A Way Forward”</strong> In <em>Computer &amp Security</em>, Vol. 163, Elsevier, 2026, doi:<a href="https://doi.org/10.1016/j.cose.2025.104814">10.1016/j.cose.2025.104814</a>, 2026</li>
         <li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp Xiaoting Huang <strong>“5G Authentication Mechanisms”</strong> A book chapter in <em>5G Networks and Cybersecurity</em>, River Publisher, 2025</li>
         <li>Sayon Duttagupta, Dave Singelée, Xavier Carpent, Volkan Guler, Takahito Yoshizawa, Seyed Farhad Aghili, Aysajan Abidin, &amp Bart Preneel <strong>“CARPOOL: Secure And Reliable Proof of Location”</strong> In <em>Cryptology ePrint Archive</em>, <a href="https://eprint.iacr.org/2025/1502">iacr 2025 1502</a>, 2025</li>
         <li>Roosbeh Sarenche, S. Aghili, Dave Singelée, &amp;  Takahito Yoshizawa <strong>“DASLog: Decentralized Auditable Secure Logging for UAV Ecosystems”</strong> In <em>IEEE Internet of Things Journal 10(23)</em>, pp. 20264-20284, doi:<a href="https://doi.org/10.1109/JIOT.2023.3281263">10.1109/JIOT.2023.3281263</a>, 2023</li>
