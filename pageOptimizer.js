@@ -116,6 +116,7 @@ Pervasive Computing for Vehicular Systems</em>, doi: TBD<a href=""></a>, 2025.</
     connectedCallback() {
       this.innerHTML = `
       <ul class="wp-block-list">
+        <li>A.R. Prasad, S. De Kievit, H. Ito, Takahito Yoshizawa, <strong>“Integrity protection schemes in mobile communication”</strong>, <em>US Patent 12,603,782</em> </li>
         <li>T Yoshizawa, N.P. Sasi, R. Rajendran, <strong>“Method and device for reducing security risk in communication”</strong>, <em>US Patent 12,342,247, 2025</em> </li>
         <li>S. Singh, T. Yoshizawa, <strong>“System and method of dual-sim ues operation in 5g networks”</strong>, <em>US Patent 12,232,070</em> </li>
         <li>R. Rajendran, P.K. Singaravelu, N.P. Sasi, T. Yoshizawa, <strong>“Source base station, UE, method in wireless communication system”</strong>, <em>US Patent 12,200,493</em> </li>
@@ -153,7 +154,6 @@ Pervasive Computing for Vehicular Systems</em>, doi: TBD<a href=""></a>, 2025.</
         <li>N.P. Sasi, R. Rajendran, T. Yoshizawa, T Tamura, <strong>“CREDENTIAL STORAGE AND SELECTION OF CREDENTIALS FOR NON-PUBLIC NETWORK”</strong>, <em>US Patent App. 17/617,458</em> </li>
         <li>T. Yoshizawa, S. Singh, S. De Kievit, <strong>“METHODS AND PROCESS OF VERIFYING MULTI-SIM DEVICE AND SUBSCRIPTION INFORMATION”</strong>, <em>US Patent App. 17/605,038</em> </li>
         <li>A.R. Prasad, S. Lakshminarayanan, S.B.M. Baskaran, S. Arumugam, H. Ito, T. Yoshizawa, <strong>“Authentication method for next generation systems”</strong>, <em>US Patent App. 17/549,156</em> </li>
-        <li>A.R. Prasad, S. De Kievit, H. Ito, Takahito Yoshizawa, <strong>“Integrity protection schemes in mobile communication”</strong>, <em>US Patent App. 17/285,991</em> </li>
         <li>S. De Kievit, H. Ito, A.R. Prasad, T. Yoshizawa, <strong>“Schemes and methods of integrity protection in mobile communication”</strong>, <em>US Patent App. 17/284,893</em> </li>
         <li>H. Ito, A.R. Prasad, T. Yoshizawa, S.B.M. BASKARAN, S. ARUMUGAM, ...,  <strong>“Security procedures for common api framework in next generation networks”</strong>, <em>US Patent App. 17/044,383</em> </li>
         <li>H. Ito, A.R. Prasad, S. Arumugam, T. Yoshizawa, S. Lakshminarayanan,  <strong>“Integrity protection for user plane data in 5g network”</strong>, <em>US Patent App. 16/969,363</em> </li>
