@@ -83,7 +83,8 @@ Pervasive Computing for Vehicular Systems</em>, doi: TBD<a href=""></a>, 2025.</
       this.innerHTML = `
       <ul class="wp-block-list">
         <li>8th International Workshop on Pervasive Computing for Vehicular Systems (PerVehicle) 2026</li>
-        <li>IEEE Vehicular Networking Conference (VNC) 2025</li>
+        <li>IEEE Vehicular Networking Conference (VNC) 2024~2025</li>
+        <li>IEEE Conference on Standards for Communications and Networking (CSCN) 2023~2026</li>
       </ul>
       `
     }
@@ -95,12 +96,12 @@ Pervasive Computing for Vehicular Systems</em>, doi: TBD<a href=""></a>, 2025.</
         <li>Automatika: Journal for Control, Measurement, Electronics, Computing and Communications</li>
         <li>Elsevier Computer Networks</li>
         <li>IEEE Communications Standards Magazine</li>
-        <li>IEEE Conference on Standards for Communications and Networking (CSCN), 2023, 2024, 2025</li>
+        <li>IEEE Conference on Standards for Communications and Networking (CSCN), 2023~2026</li>
         <li>IEEE Internet of Things Journal</li>
         <li>IEEE Open Journal of the Communications Society</li>
         <li>IEEE Transactions on Industrial Cyber-Physical Systems</li>
         <li>IEEE Transactions on Information Forensics & Security</li>
-        <li>IEEE Vehicular Networking Conference (VNC), 2024, 2025</li>
+        <li>IEEE Vehicular Networking Conference (VNC), 2024~2025</li>
         <li>IEEE Vehicular Technology Conference (VTC), 2021</li>
         <li>IEEE Vehicular Technology Magazine</li>
         <li>Journal of Autonomous Intelligence</li>
