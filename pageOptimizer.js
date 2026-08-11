@@ -6,7 +6,7 @@
       <br><br>
       <div class="bottom-nav">
         <div>
-          <p style="color:gray;">Last Update: 2026-07-31 </p>
+          <p style="color:gray;">Last Update: 2026-08-11 </p>
         </div>
       </div>
       `
@@ -94,7 +94,9 @@ Pervasive Computing for Vehicular Systems</em>, doi: TBD<a href=""></a>, 2025.</
       this.innerHTML = `
       <ul class="wp-block-list">
         <li>Automatika: Journal for Control, Measurement, Electronics, Computing and Communications</li>
+        <li>Elsevier Ad-hoc Networks</li>
         <li>Elsevier Computer Networks</li>
+        <li>Elsevier Journal of Information Security and Applications</li>
         <li>IEEE Communications Standards Magazine</li>
         <li>IEEE Conference on Standards for Communications and Networking (CSCN), 2023~2026</li>
         <li>IEEE Internet of Things Journal</li>
@@ -104,10 +106,17 @@ Pervasive Computing for Vehicular Systems</em>, doi: TBD<a href=""></a>, 2025.</
         <li>IEEE Vehicular Networking Conference (VNC), 2024~2025</li>
         <li>IEEE Vehicular Technology Conference (VTC), 2021</li>
         <li>IEEE Vehicular Technology Magazine</li>
+        <li>IntechOpen</li>
+        <li>Bonview Press, Journal of Data Science and Intelligent Systems (JDSIS)</li>
         <li>Journal of Autonomous Intelligence</li>
+        <li>MDPI Future Internet</li>
+        <li>MDPI Network</li>
+        <li>MDPI Telecom</li>
+        <li>MDPI Vehicles</li>
         <li>Springer Nature - Journal of Big Data</li>
         <li>Springer Nature - Journal of Cloud Computing</li>
         <li>Springer Nature - Journal of Supercomuting</li>
+        <li>Wiley IET Intelligent Transport Systems</li>
       </ul>
       `
     }
