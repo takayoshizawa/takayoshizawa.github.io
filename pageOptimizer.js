@@ -6,7 +6,7 @@
       <br><br>
       <div class="bottom-nav">
         <div>
-          <p style="color:gray;">Last Update: 2026-08-11 </p>
+          <p style="color:gray;">Last Update: 2026-11-01 </p>
         </div>
       </div>
       `
@@ -61,14 +61,32 @@ Pervasive Computing for Vehicular Systems</em>, doi:<a href="https://doi.org/10.
     }
   }
 
-  class OtherResearchPapers extends HTMLElement {
+  class InternetResearchPapers extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
       <ul class="wp-block-list">
         <li>Takahito Yoshizawa, Himanshu Agarwal, Dave Singelée, &amp Bart Preneel <strong>“Certificate Revocation – Search for A Way Forward”</strong> In <em>Computer &amp Security</em>, Vol. 163, Elsevier, 2026, doi:<a href="https://doi.org/10.1016/j.cose.2025.104814">10.1016/j.cose.2025.104814</a>, 2026</li>
-        <li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp Xiaoting Huang <strong>“5G Authentication Mechanisms”</strong> A book chapter in <em>5G Networks and Cybersecurity</em>, River Publisher, 2025</li>
+      </ul>
+      `
+    }
+  }
+
+  class IoTResearchPapers extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `
+      <ul class="wp-block-list">
         <li>Sayon Duttagupta, Dave Singelée, Xavier Carpent, Volkan Guler, Takahito Yoshizawa, Seyed Farhad Aghili, Aysajan Abidin, &amp Bart Preneel <strong>“CARPOOL: Secure And Reliable Proof of Location”</strong> In <em>Cryptology ePrint Archive</em>, <a href="https://eprint.iacr.org/2025/1502">iacr 2025 1502</a>, doi:<a href="https://doi.acm.org?doi=3750555.3811885">doi.acm.org?doi=3750555.3811885</a>, 2025</li>
         <li>Roosbeh Sarenche, S. Aghili, Dave Singelée, &amp;  Takahito Yoshizawa <strong>“DASLog: Decentralized Auditable Secure Logging for UAV Ecosystems”</strong> In <em>IEEE Internet of Things Journal 10(23)</em>, pp. 20264-20284, doi:<a href="https://doi.org/10.1109/JIOT.2023.3281263">10.1109/JIOT.2023.3281263</a>, 2023</li>
+      </ul>
+      `
+    }
+  }
+
+  class MobileResearchPapers extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `
+      <ul class="wp-block-list">
+        <li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp Xiaoting Huang <strong>“5G Authentication Mechanisms”</strong> A book chapter in <em>5G Networks and Cybersecurity</em>, River Publisher, 2025</li>
         <li>Xiaoting Huang, Takahito Yoshizawa, &amp;  Sheeba Backia Mary Baskaran <strong>“Authentication Mechanisms in the 5G System”</strong> In <em>Journal of ICT Standardization 9(2)</em>, River Publisher, pp. 61-78, doi:<a href="https://doi.org/10.13052/jicts2245-800X.921">10.13052/jicts2245-800X.921</a>, 2021.</li>
         <li>Takahito Yoshizawa, &amp; Bart Preneel (2020) <strong>“Verification Schemes of Multi-SIM Devices in Mobile Communication Systems”</strong> In <em>ACM International Symposium on Mobility Management and Wireless Access 2020</em>, 7 pages, doi:<a href="https://doi.org/10.1145/3416012.3424620">10.1145/3416012.3424620</a>, 2020.</li>
         <li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp;  Andreas Kunz <strong>“Overview of 5G URLLC System and Security Aspects in 3GPP”</strong> In <em>IEEE Conference on Standards for Communications and Networking, J. Lopez-Soler and T. Taleb (Eds.)</em>, 5 pages, doi:<a href="https://doi.org/10.1109/CSCN.2019.8931376">10.1109/CSCN.2019.8931376</a>, 2019.</li>
@@ -181,7 +199,9 @@ customElements.define('special-footer', SpecialFooter)
 customElements.define('ml-research-paper-list', MLResearchPapers)
 customElements.define('pqc-research-paper-list', PQCResearchPapers)
 customElements.define('v2x-research-paper-list', V2XResearchPapers)
-customElements.define('other-research-paper-list', OtherResearchPapers)
+customElements.define('internet-research-paper-list', InternetResearchPapers)
+customElements.define('iot-research-paper-list', IoTResearchPapers)
+customElements.define('mobile-research-paper-list', MobileResearchPapers)
 customElements.define('tpc-list', TPCList)
 customElements.define('paper-review-list', PaperReviewList)
 customElements.define('patent-content-granted', PatentContentGranted)
