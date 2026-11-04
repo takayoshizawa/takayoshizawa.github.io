@@ -6,7 +6,7 @@
       <br><br>
       <div class="bottom-nav">
         <div>
-          <p style="color:gray;">Last Update: 2026-11-01 </p>
+          <p style="color:gray;">Last Update: 2026-11-04 </p>
         </div>
       </div>
       `
@@ -86,6 +86,7 @@ Pervasive Computing for Vehicular Systems</em>, doi:<a href="https://doi.org/10.
     connectedCallback() {
       this.innerHTML = `
       <ul class="wp-block-list">
+        <li>Takahito Yoshizawa, Jasmina McMenamy, &amp An Braeken <strong>“Security of NTNs: Bridging Standardization and Academic Research”</strong> In <em>Computer Networks</em>, Elsevier, doi:<a href="TBD">TBD</a>, 2026.</li>
         <li>Takahito Yoshizawa, Sheeba Backia Mary Baskaran, &amp Xiaoting Huang <strong>“5G Authentication Mechanisms”</strong> A book chapter in <em>5G Networks and Cybersecurity</em>, River Publisher, 2025</li>
         <li>Xiaoting Huang, Takahito Yoshizawa, &amp;  Sheeba Backia Mary Baskaran <strong>“Authentication Mechanisms in the 5G System”</strong> In <em>Journal of ICT Standardization 9(2)</em>, River Publisher, pp. 61-78, doi:<a href="https://doi.org/10.13052/jicts2245-800X.921">10.13052/jicts2245-800X.921</a>, 2021.</li>
         <li>Takahito Yoshizawa, &amp; Bart Preneel (2020) <strong>“Verification Schemes of Multi-SIM Devices in Mobile Communication Systems”</strong> In <em>ACM International Symposium on Mobility Management and Wireless Access 2020</em>, 7 pages, doi:<a href="https://doi.org/10.1145/3416012.3424620">10.1145/3416012.3424620</a>, 2020.</li>
