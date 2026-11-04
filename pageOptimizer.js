@@ -117,12 +117,14 @@ Pervasive Computing for Vehicular Systems</em>, doi:<a href="https://doi.org/10.
         <li>Elsevier Ad-hoc Networks</li>
         <li>Elsevier Computer Networks</li>
         <li>Elsevier Journal of Information Security and Applications</li>
+        <li>Elsevier Journal of Traffic and Transportation Engineering</li>
         <li>IEEE Communications Standards Magazine</li>
         <li>IEEE Conference on Standards for Communications and Networking (CSCN), 2023~2026</li>
         <li>IEEE Internet of Things Journal</li>
         <li>IEEE Open Journal of the Communications Society</li>
         <li>IEEE Transactions on Industrial Cyber-Physical Systems</li>
         <li>IEEE Transactions on Information Forensics & Security</li>
+        <li>IEEE Transactions on Mobile Computing</li>
         <li>IEEE Vehicular Networking Conference (VNC), 2024~2025</li>
         <li>IEEE Vehicular Technology Conference (VTC), 2021</li>
         <li>IEEE Vehicular Technology Magazine</li>
@@ -130,12 +132,16 @@ Pervasive Computing for Vehicular Systems</em>, doi:<a href="https://doi.org/10.
         <li>Bonview Press, Journal of Data Science and Intelligent Systems (JDSIS)</li>
         <li>Journal of Autonomous Intelligence</li>
         <li>MDPI Future Internet</li>
+        <li>MDPI Computers</li>
         <li>MDPI Network</li>
+        <li>MDPI Sensors</li>
         <li>MDPI Telecom</li>
         <li>MDPI Vehicles</li>
+        <li>Springer Nature - International Journal of Information Security</li>
         <li>Springer Nature - Journal of Big Data</li>
         <li>Springer Nature - Journal of Cloud Computing</li>
         <li>Springer Nature - Journal of Supercomuting</li>
+        <li>Springer Nature - Journal of Mobile Networks and Applications</li>
         <li>Wiley IET Intelligent Transport Systems</li>
       </ul>
       `
