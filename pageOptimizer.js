@@ -6,7 +6,7 @@
       <br><br>
       <div class="bottom-nav">
         <div>
-          <p style="color:gray;">Last Update: 2026-11-22 </p>
+          <p style="color:gray;">Last Update: 2026-11-24 </p>
         </div>
       </div>
       `
@@ -116,6 +116,7 @@ Pervasive Computing for Vehicular Systems</em>, doi:<a href="https://doi.org/10.
         <li>Automatika: Journal for Control, Measurement, Electronics, Computing and Communications</li>
         <li>Elsevier Ad-hoc Networks</li>
         <li>Elsevier Computer Networks</li>
+        <li>Elsevier Computer Standards & Interfaces</li>
         <li>Elsevier Journal of Information Security and Applications</li>
         <li>Elsevier Journal of Traffic and Transportation Engineering</li>
         <li>IEEE Communications Standards Magazine</li>
